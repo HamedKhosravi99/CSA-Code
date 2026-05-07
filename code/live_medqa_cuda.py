@@ -1,10 +1,10 @@
 """
-CUDA twin of live_medqa.py for NVIDIA GPUs (PACE / H200 / H100 / A100).
+CUDA twin of live_medqa.py for NVIDIA GPUs (H200 / H100 / A100).
 
 Same live RLVR loop on MedQA with Fleming-R1-7B, but using
 transformers + PEFT + bitsandbytes 4-bit quantization instead of MLX.
 
-Usage (on PACE Phoenix via SLURM; see run_medqa_pace.sbatch):
+Usage (single-GPU SLURM-managed cluster):
     python live_medqa_cuda.py --mode full \
         --model UbiquantAI/Fleming-R1-7B \
         --out   results_live_medqa/full.json \
@@ -217,8 +217,7 @@ def run_lora_round(model, tokenizer, sft_records, out_dir, iters, lr=1e-5,
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--mode', choices=['pilot', 'medium', 'full'], default='pilot')
-    # Default base model: Med42-v2-8B (Llama-3-based; ~72% on MedQA-USMLE;
-    # PACE-compliant, unlike Qwen/DeepSeek which are on Georgia's ban list).
+    # Default base model: Med42-v2-8B (Llama-3-based; ~72% on MedQA-USMLE).
     ap.add_argument('--model', default='m42-health/Llama3-Med42-8B')
     ap.add_argument('--out', default='results_live_medqa/full.json')
     ap.add_argument('--adapters-dir', default='results_live_medqa/adapters_cuda')

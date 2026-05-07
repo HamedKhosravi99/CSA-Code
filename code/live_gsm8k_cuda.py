@@ -22,7 +22,7 @@ import sys
 import time
 from collections import Counter
 
-# Point HF cache at scratch if available (PACE convention).
+# Point HF cache at scratch if available (cluster convention).
 if 'HF_HOME' not in os.environ:
     _scratch_cache = os.path.expanduser('~/scratch/.hf_cache')
     if os.path.isdir(_scratch_cache):
