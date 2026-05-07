@@ -1,0 +1,86 @@
+{
+  "benchmark": "medical (MedQA)",
+  "alpha": 0.2,
+  "n_reps": 10,
+  "n_passes": 30,
+  "burn_in_accepts": 500,
+  "n_items": 1018,
+  "err_easy": 0.17092337917485267,
+  "err_hard": 0.4636542239685658,
+  "shift_ratio": 2.7126436781609193,
+  "methods_tested": [
+    "CRC",
+    "NEX-Conf",
+    "Mohri-Conf"
+  ],
+  "iid_summary": {
+    "CRC": {
+      "final_risk_mean": 0.0,
+      "final_risk_std": 0.0,
+      "final_ar_mean": 0.0,
+      "final_ar_std": 0.0,
+      "max_risk_mean": 0.0,
+      "max_risk_std": 0.0,
+      "pathwise_violations": 0,
+      "n_reps": 10,
+      "pathwise_violation_rate": "0/10"
+    },
+    "NEX-Conf": {
+      "final_risk_mean": 0.1723861950024226,
+      "final_risk_std": 0.0010678835273190595,
+      "final_ar_mean": 0.5646234446627374,
+      "final_ar_std": 0.0016698254900491623,
+      "max_risk_mean": 0.17805252373060998,
+      "max_risk_std": 0.003762632914354911,
+      "pathwise_violations": 0,
+      "n_reps": 10,
+      "pathwise_violation_rate": "0/10"
+    },
+    "Mohri-Conf": {
+      "final_risk_mean": 0.08009409591401426,
+      "final_risk_std": 0.05243411598679924,
+      "final_ar_mean": 0.2839980353634578,
+      "final_ar_std": 0.1859204583145146,
+      "max_risk_mean": 0.0857324857062875,
+      "max_risk_std": 0.0562726505974913,
+      "pathwise_violations": 0,
+      "n_reps": 10,
+      "pathwise_violation_rate": "0/10"
+    }
+  },
+  "shift_summary": {
+    "CRC": {
+      "final_risk_mean": 0.11435861895052439,
+      "final_risk_std": 0.0001093545365573231,
+      "final_ar_mean": 0.39905370006548785,
+      "final_ar_std": 4.501547833944601e-05,
+      "max_risk_mean": 0.1214730705996101,
+      "max_risk_std": 0.003820565839548198,
+      "pathwise_violations": 0,
+      "n_reps": 10,
+      "pathwise_violation_rate": "0/10"
+    },
+    "NEX-Conf": {
+      "final_risk_mean": 0.16526500348655357,
+      "final_risk_std": 0.0010487118865995862,
+      "final_ar_mean": 0.5307989521938442,
+      "final_ar_std": 0.002513967220780277,
+      "max_risk_mean": 0.1688036329697281,
+      "max_risk_std": 0.003643497764267423,
+      "pathwise_violations": 0,
+      "n_reps": 10,
+      "pathwise_violation_rate": "0/10"
+    },
+    "Mohri-Conf": {
+      "final_risk_mean": 0.31818242343541947,
+      "final_risk_std": 4.660452729693795e-05,
+      "final_ar_mean": 0.9836280288146693,
+      "final_ar_std": 0.0,
+      "max_risk_mean": 0.483822539530816,
+      "max_risk_std": 0.0027980926558133948,
+      "pathwise_violations": 10,
+      "n_reps": 10,
+      "pathwise_violation_rate": "10/10"
+    }
+  }
+}

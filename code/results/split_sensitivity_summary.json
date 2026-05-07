@@ -1,0 +1,758 @@
+{
+  "medical": {
+    "benchmark": "medical",
+    "label": "MedQA",
+    "alpha": 0.2,
+    "n_seeds": 11,
+    "seeds": [
+      42,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "all_safe": true,
+    "risk_range": [
+      0.11115859034311618,
+      0.13340942324423863
+    ],
+    "ar_range": [
+      0.38200065487884743,
+      0.3985756385068762
+    ],
+    "risk_cv": 0.061262466045663766,
+    "ar_cv": 0.01427264491575385,
+    "per_seed": {
+      "42": {
+        "calibration": {
+          "seed": 42,
+          "n_cal": 255,
+          "n_eval": 1018,
+          "cal_fail_rate": 0.33725490196078434,
+          "eval_fail_rate": 0.3153241650294695,
+          "grid_min": 0.14423076923076922,
+          "grid_max": 0.6956521739130435
+        },
+        "csa_results": {
+          "risk_mean": 0.11439400100757544,
+          "risk_std": 0.00016734056246846762,
+          "ar_mean": 0.39446299934512113,
+          "ar_std": 0.0026214567953162207,
+          "max_risk_mean": 0.12368819947861738,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "0": {
+        "calibration": {
+          "seed": 0,
+          "n_cal": 255,
+          "n_eval": 1018,
+          "cal_fail_rate": 0.33725490196078434,
+          "eval_fail_rate": 0.3153241650294695,
+          "grid_min": 0.11214953271028037,
+          "grid_max": 0.7941176470588235
+        },
+        "csa_results": {
+          "risk_mean": 0.12233286652596094,
+          "risk_std": 0.00022938830959944235,
+          "ar_mean": 0.3870399476096922,
+          "ar_std": 0.0031639460172008037,
+          "max_risk_mean": 0.1297207868587825,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "1": {
+        "calibration": {
+          "seed": 1,
+          "n_cal": 255,
+          "n_eval": 1018,
+          "cal_fail_rate": 0.27450980392156865,
+          "eval_fail_rate": 0.33104125736738704,
+          "grid_min": 0.08333333333333333,
+          "grid_max": 0.53125
+        },
+        "csa_results": {
+          "risk_mean": 0.12993858025344104,
+          "risk_std": 0.0002157246675154309,
+          "ar_mean": 0.38313032089063526,
+          "ar_std": 0.005332857431327131,
+          "max_risk_mean": 0.1387900724479128,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "2": {
+        "calibration": {
+          "seed": 2,
+          "n_cal": 255,
+          "n_eval": 1018,
+          "cal_fail_rate": 0.3254901960784314,
+          "eval_fail_rate": 0.3182711198428291,
+          "grid_min": 0.15841584158415842,
+          "grid_max": 0.6153846153846154
+        },
+        "csa_results": {
+          "risk_mean": 0.11115859034311618,
+          "risk_std": 0.0002779794954427028,
+          "ar_mean": 0.39834315651604457,
+          "ar_std": 0.0023622524868007187,
+          "max_risk_mean": 0.12069028029096503,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "3": {
+        "calibration": {
+          "seed": 3,
+          "n_cal": 255,
+          "n_eval": 1018,
+          "cal_fail_rate": 0.3215686274509804,
+          "eval_fail_rate": 0.3192534381139489,
+          "grid_min": 0.1308411214953271,
+          "grid_max": 0.5217391304347826
+        },
+        "csa_results": {
+          "risk_mean": 0.11753319817231815,
+          "risk_std": 0.0001609051209700271,
+          "ar_mean": 0.3896365422396857,
+          "ar_std": 0.0032982838409653173,
+          "max_risk_mean": 0.12424616367334754,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "4": {
+        "calibration": {
+          "seed": 4,
+          "n_cal": 255,
+          "n_eval": 1018,
+          "cal_fail_rate": 0.3176470588235294,
+          "eval_fail_rate": 0.32023575638506874,
+          "grid_min": 0.0673076923076923,
+          "grid_max": 0.7083333333333334
+        },
+        "csa_results": {
+          "risk_mean": 0.13340942324423863,
+          "risk_std": 0.00012135695270749878,
+          "ar_mean": 0.38200065487884743,
+          "ar_std": 0.0029341587136946083,
+          "max_risk_mean": 0.1411781429383127,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "5": {
+        "calibration": {
+          "seed": 5,
+          "n_cal": 255,
+          "n_eval": 1018,
+          "cal_fail_rate": 0.3568627450980392,
+          "eval_fail_rate": 0.3104125736738703,
+          "grid_min": 0.11650485436893204,
+          "grid_max": 0.8
+        },
+        "csa_results": {
+          "risk_mean": 0.12126752827000549,
+          "risk_std": 0.00019756146805062686,
+          "ar_mean": 0.3916535690897184,
+          "ar_std": 0.003369109820676145,
+          "max_risk_mean": 0.13022047454719005,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "6": {
+        "calibration": {
+          "seed": 6,
+          "n_cal": 255,
+          "n_eval": 1018,
+          "cal_fail_rate": 0.3568627450980392,
+          "eval_fail_rate": 0.3104125736738703,
+          "grid_min": 0.08571428571428572,
+          "grid_max": 0.8
+        },
+        "csa_results": {
+          "risk_mean": 0.12891036373407633,
+          "risk_std": 0.0002932294150021353,
+          "ar_mean": 0.3841519318925999,
+          "ar_std": 0.003353817378579337,
+          "max_risk_mean": 0.13568507690246884,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "7": {
+        "calibration": {
+          "seed": 7,
+          "n_cal": 255,
+          "n_eval": 1018,
+          "cal_fail_rate": 0.3058823529411765,
+          "eval_fail_rate": 0.3231827111984283,
+          "grid_min": 0.12149532710280374,
+          "grid_max": 0.75
+        },
+        "csa_results": {
+          "risk_mean": 0.11996738354619219,
+          "risk_std": 0.0001708998130280048,
+          "ar_mean": 0.3887197118533071,
+          "ar_std": 0.0023395426525629494,
+          "max_risk_mean": 0.12746612836160168,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "8": {
+        "calibration": {
+          "seed": 8,
+          "n_cal": 255,
+          "n_eval": 1018,
+          "cal_fail_rate": 0.3137254901960784,
+          "eval_fail_rate": 0.3212180746561886,
+          "grid_min": 0.15841584158415842,
+          "grid_max": 0.7777777777777778
+        },
+        "csa_results": {
+          "risk_mean": 0.11115931664613384,
+          "risk_std": 0.0001979732333484633,
+          "ar_mean": 0.3985756385068762,
+          "ar_std": 0.002851967305522476,
+          "max_risk_mean": 0.11987144523522102,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "9": {
+        "calibration": {
+          "seed": 9,
+          "n_cal": 255,
+          "n_eval": 1018,
+          "cal_fail_rate": 0.30196078431372547,
+          "eval_fail_rate": 0.3241650294695481,
+          "grid_min": 0.08490566037735849,
+          "grid_max": 0.7619047619047619
+        },
+        "csa_results": {
+          "risk_mean": 0.12935740387005373,
+          "risk_std": 0.00022597711555837112,
+          "ar_mean": 0.3852586771447282,
+          "ar_std": 0.003712758796623679,
+          "max_risk_mean": 0.1381382463285464,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      }
+    }
+  },
+  "gsm8k": {
+    "benchmark": "gsm8k",
+    "label": "GSM8K",
+    "alpha": 0.05,
+    "n_seeds": 11,
+    "seeds": [
+      42,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "all_safe": true,
+    "risk_range": [
+      0.021699362549415034,
+      0.030089343288541726
+    ],
+    "ar_range": [
+      0.4973112164296999,
+      0.7832827804107426
+    ],
+    "risk_cv": 0.08623619701445133,
+    "ar_cv": 0.11969435172897279,
+    "per_seed": {
+      "42": {
+        "calibration": {
+          "seed": 42,
+          "n_cal": 264,
+          "n_eval": 1055,
+          "cal_fail_rate": 0.04924242424242424,
+          "eval_fail_rate": 0.06066350710900474,
+          "grid_min": 0.014285714285714285,
+          "grid_max": 0.4444444444444444
+        },
+        "csa_results": {
+          "risk_mean": 0.025621085309120262,
+          "risk_std": 0.0001413789709264144,
+          "ar_mean": 0.7172101105845182,
+          "ar_std": 0.004225996662348573,
+          "max_risk_mean": 0.02573159537988361,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "0": {
+        "calibration": {
+          "seed": 0,
+          "n_cal": 264,
+          "n_eval": 1055,
+          "cal_fail_rate": 0.06060606060606061,
+          "eval_fail_rate": 0.05781990521327014,
+          "grid_min": 0.029411764705882353,
+          "grid_max": 0.25
+        },
+        "csa_results": {
+          "risk_mean": 0.021699362549415034,
+          "risk_std": 8.70921734470123e-05,
+          "ar_mean": 0.7680758293838863,
+          "ar_std": 0.0033092562001618086,
+          "max_risk_mean": 0.021841075987548232,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "1": {
+        "calibration": {
+          "seed": 1,
+          "n_cal": 264,
+          "n_eval": 1055,
+          "cal_fail_rate": 0.08712121212121213,
+          "eval_fail_rate": 0.05118483412322275,
+          "grid_min": 0.034653465346534656,
+          "grid_max": 0.8
+        },
+        "csa_results": {
+          "risk_mean": 0.024188811315085244,
+          "risk_std": 0.00017264398941738759,
+          "ar_mean": 0.7468783570300157,
+          "ar_std": 0.003005636237930671,
+          "max_risk_mean": 0.024287089711352197,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "2": {
+        "calibration": {
+          "seed": 2,
+          "n_cal": 264,
+          "n_eval": 1055,
+          "cal_fail_rate": 0.04924242424242424,
+          "eval_fail_rate": 0.06066350710900474,
+          "grid_min": 0.004901960784313725,
+          "grid_max": 0.75
+        },
+        "csa_results": {
+          "risk_mean": 0.02449300582165932,
+          "risk_std": 0.0001581878532308148,
+          "ar_mean": 0.7303570300157979,
+          "ar_std": 0.006599207975747911,
+          "max_risk_mean": 0.024629329782435393,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "3": {
+        "calibration": {
+          "seed": 3,
+          "n_cal": 264,
+          "n_eval": 1055,
+          "cal_fail_rate": 0.041666666666666664,
+          "eval_fail_rate": 0.06255924170616113,
+          "grid_min": 0.014018691588785047,
+          "grid_max": 0.2727272727272727
+        },
+        "csa_results": {
+          "risk_mean": 0.023953710015290074,
+          "risk_std": 6.062856829076682e-05,
+          "ar_mean": 0.7411563981042655,
+          "ar_std": 0.003484211433919123,
+          "max_risk_mean": 0.02404046639632883,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "4": {
+        "calibration": {
+          "seed": 4,
+          "n_cal": 264,
+          "n_eval": 1055,
+          "cal_fail_rate": 0.045454545454545456,
+          "eval_fail_rate": 0.061611374407582936,
+          "grid_min": 0.00904977375565611,
+          "grid_max": 0.4
+        },
+        "csa_results": {
+          "risk_mean": 0.024053267059129423,
+          "risk_std": 0.0001275774353181141,
+          "ar_mean": 0.7387488151658769,
+          "ar_std": 0.002760817073612595,
+          "max_risk_mean": 0.024140332721856974,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "5": {
+        "calibration": {
+          "seed": 5,
+          "n_cal": 264,
+          "n_eval": 1055,
+          "cal_fail_rate": 0.056818181818181816,
+          "eval_fail_rate": 0.058767772511848344,
+          "grid_min": 0.023255813953488372,
+          "grid_max": 0.14285714285714285
+        },
+        "csa_results": {
+          "risk_mean": 0.027247563983085775,
+          "risk_std": 0.00012914554345104659,
+          "ar_mean": 0.7832827804107426,
+          "ar_std": 0.004029952321267167,
+          "max_risk_mean": 0.027342631232811932,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "6": {
+        "calibration": {
+          "seed": 6,
+          "n_cal": 264,
+          "n_eval": 1055,
+          "cal_fail_rate": 0.05303030303030303,
+          "eval_fail_rate": 0.05971563981042654,
+          "grid_min": 0.02092050209205021,
+          "grid_max": 0.42857142857142855
+        },
+        "csa_results": {
+          "risk_mean": 0.030089343288541726,
+          "risk_std": 0.00012454080409285607,
+          "ar_mean": 0.4973112164296999,
+          "ar_std": 0.005876105382103861,
+          "max_risk_mean": 0.03437385024951231,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "7": {
+        "calibration": {
+          "seed": 7,
+          "n_cal": 264,
+          "n_eval": 1055,
+          "cal_fail_rate": 0.041666666666666664,
+          "eval_fail_rate": 0.06255924170616113,
+          "grid_min": 0.009708737864077669,
+          "grid_max": 0.42857142857142855
+        },
+        "csa_results": {
+          "risk_mean": 0.026066162438895292,
+          "risk_std": 0.00010854527465500433,
+          "ar_mean": 0.7072733017377567,
+          "ar_std": 0.00425980089686239,
+          "max_risk_mean": 0.026177359566081727,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "8": {
+        "calibration": {
+          "seed": 8,
+          "n_cal": 264,
+          "n_eval": 1055,
+          "cal_fail_rate": 0.045454545454545456,
+          "eval_fail_rate": 0.061611374407582936,
+          "grid_min": 0.02066115702479339,
+          "grid_max": 0.16666666666666666
+        },
+        "csa_results": {
+          "risk_mean": 0.028116954986438385,
+          "risk_std": 0.00012150941823611643,
+          "ar_mean": 0.567257503949447,
+          "ar_std": 0.007331645137506481,
+          "max_risk_mean": 0.03307651288318843,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "9": {
+        "calibration": {
+          "seed": 9,
+          "n_cal": 264,
+          "n_eval": 1055,
+          "cal_fail_rate": 0.06060606060606061,
+          "eval_fail_rate": 0.05781990521327014,
+          "grid_min": 0.01485148514851485,
+          "grid_max": 0.5
+        },
+        "csa_results": {
+          "risk_mean": 0.025005763623185275,
+          "risk_std": 0.0001387209795307225,
+          "ar_mean": 0.7301864139020536,
+          "ar_std": 0.004162570630319702,
+          "max_risk_mean": 0.025135815965776333,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      }
+    }
+  },
+  "arc": {
+    "benchmark": "arc",
+    "label": "ARC",
+    "alpha": 0.1,
+    "n_seeds": 11,
+    "seeds": [
+      42,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "all_safe": false,
+    "risk_range": [
+      0.06977024230361728,
+      0.08516875204180817
+    ],
+    "ar_range": [
+      0.19560412224591328,
+      0.7480987917555082
+    ],
+    "risk_cv": 0.0528297425988673,
+    "ar_cv": 0.30778070482437997,
+    "per_seed": {
+      "42": {
+        "calibration": {
+          "seed": 42,
+          "n_cal": 234,
+          "n_eval": 938,
+          "cal_fail_rate": 0.11538461538461539,
+          "eval_fail_rate": 0.09488272921108742,
+          "grid_min": 0.08372093023255814,
+          "grid_max": 0.5077142857142872
+        },
+        "csa_results": {
+          "risk_mean": 0.07833978798481381,
+          "risk_std": 0.00014452618759985044,
+          "ar_mean": 0.5616631130063966,
+          "ar_std": 0.012562858049899999,
+          "max_risk_mean": 0.08630023527383747,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "0": {
+        "calibration": {
+          "seed": 0,
+          "n_cal": 234,
+          "n_eval": 938,
+          "cal_fail_rate": 0.12393162393162394,
+          "eval_fail_rate": 0.09275053304904052,
+          "grid_min": 0.09954751131221719,
+          "grid_max": 0.5340000000000004
+        },
+        "csa_results": {
+          "risk_mean": 0.06977024230361728,
+          "risk_std": 0.00010027383238653748,
+          "ar_mean": 0.73909381663113,
+          "ar_std": 0.006727172753790449,
+          "max_risk_mean": 0.07697379913820915,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "1": {
+        "calibration": {
+          "seed": 1,
+          "n_cal": 234,
+          "n_eval": 938,
+          "cal_fail_rate": 0.10256410256410256,
+          "eval_fail_rate": 0.09808102345415778,
+          "grid_min": 0.06944444444444445,
+          "grid_max": 0.6363636363636364
+        },
+        "csa_results": {
+          "risk_mean": 0.08092907015309828,
+          "risk_std": 0.0002001306392539214,
+          "ar_mean": 0.45415422885572143,
+          "ar_std": 0.008219600840818846,
+          "max_risk_mean": 0.09179829089749618,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "2": {
+        "calibration": {
+          "seed": 2,
+          "n_cal": 234,
+          "n_eval": 938,
+          "cal_fail_rate": 0.1111111111111111,
+          "eval_fail_rate": 0.09594882729211088,
+          "grid_min": 0.10222222222222223,
+          "grid_max": 0.3333333333333333
+        },
+        "csa_results": {
+          "risk_mean": 0.07361148067592095,
+          "risk_std": 0.0001320279454026024,
+          "ar_mean": 0.6836211798152096,
+          "ar_std": 0.012851260488595303,
+          "max_risk_mean": 0.08445878187154765,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "3": {
+        "calibration": {
+          "seed": 3,
+          "n_cal": 234,
+          "n_eval": 938,
+          "cal_fail_rate": 0.10683760683760683,
+          "eval_fail_rate": 0.09701492537313433,
+          "grid_min": 0.08597285067873303,
+          "grid_max": 0.5714285714285714
+        },
+        "csa_results": {
+          "risk_mean": 0.07897337323305555,
+          "risk_std": 0.00016427875700719894,
+          "ar_mean": 0.5341080312722104,
+          "ar_std": 0.015809497673069002,
+          "max_risk_mean": 0.08734035338255539,
+          "pathwise_violations": 1,
+          "pathwise_violation_rate": "1/10"
+        }
+      },
+      "4": {
+        "calibration": {
+          "seed": 4,
+          "n_cal": 234,
+          "n_eval": 938,
+          "cal_fail_rate": 0.1282051282051282,
+          "eval_fail_rate": 0.09168443496801706,
+          "grid_min": 0.11009174311926606,
+          "grid_max": 0.3840000000000011
+        },
+        "csa_results": {
+          "risk_mean": 0.07723198752179528,
+          "risk_std": 0.0002807959463201914,
+          "ar_mean": 0.7480987917555082,
+          "ar_std": 0.010632730278533486,
+          "max_risk_mean": 0.0812511637591524,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "5": {
+        "calibration": {
+          "seed": 5,
+          "n_cal": 234,
+          "n_eval": 938,
+          "cal_fail_rate": 0.09829059829059829,
+          "eval_fail_rate": 0.09914712153518124,
+          "grid_min": 0.08636363636363636,
+          "grid_max": 0.375
+        },
+        "csa_results": {
+          "risk_mean": 0.07652225341118975,
+          "risk_std": 0.00017055708593320632,
+          "ar_mean": 0.6176759061833689,
+          "ar_std": 0.011167726681028023,
+          "max_risk_mean": 0.08449599773508132,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "6": {
+        "calibration": {
+          "seed": 6,
+          "n_cal": 234,
+          "n_eval": 938,
+          "cal_fail_rate": 0.1111111111111111,
+          "eval_fail_rate": 0.09594882729211088,
+          "grid_min": 0.08071748878923767,
+          "grid_max": 0.6950000000000003
+        },
+        "csa_results": {
+          "risk_mean": 0.07790749403027862,
+          "risk_std": 0.00016173910110992977,
+          "ar_mean": 0.5670113717128642,
+          "ar_std": 0.013901799521450438,
+          "max_risk_mean": 0.08654733955075371,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10"
+        }
+      },
+      "7": {
+        "calibration": {
+          "seed": 7,
+          "n_cal": 234,
+          "n_eval": 938,
+          "cal_fail_rate": 0.06837606837606838,
+          "eval_fail_rate": 0.10660980810234541,
+          "grid_min": 0.045454545454545456,
+          "grid_max": 0.625
+        },
+        "csa_results": {
+          "risk_mean": 0.08516875204180817,
+          "risk_std": 0.0005739612451984877,
+          "ar_mean": 0.19560412224591328,
+          "ar_std": 0.019898746305830058,
+          "max_risk_mean": 0.09675564179557539,
+          "pathwise_violations": 2,
+          "pathwise_violation_rate": "2/10"
+        }
+      },
+      "8": {
+        "calibration": {
+          "seed": 8,
+          "n_cal": 234,
+          "n_eval": 938,
+          "cal_fail_rate": 0.08547008547008547,
+          "eval_fail_rate": 0.1023454157782516,
+          "grid_min": 0.06666666666666667,
+          "grid_max": 0.5555555555555556
+        },
+        "csa_results": {
+          "risk_mean": 0.08168724077340386,
+          "risk_std": 0.00024506306451428346,
+          "ar_mean": 0.4135785358919687,
+          "ar_std": 0.023016223593463492,
+          "max_risk_mean": 0.09212098844003465,
+          "pathwise_violations": 2,
+          "pathwise_violation_rate": "2/10"
+        }
+      },
+      "9": {
+        "calibration": {
+          "seed": 9,
+          "n_cal": 234,
+          "n_eval": 938,
+          "cal_fail_rate": 0.08547008547008547,
+          "eval_fail_rate": 0.1023454157782516,
+          "grid_min": 0.05581395348837209,
+          "grid_max": 0.6666666666666666
+        },
+        "csa_results": {
+          "risk_mean": 0.08323008740066452,
+          "risk_std": 0.0001748701235062123,
+          "ar_mean": 0.33379886282871357,
+          "ar_std": 0.01620002559124793,
+          "max_risk_mean": 0.09403312444443505,
+          "pathwise_violations": 1,
+          "pathwise_violation_rate": "1/10"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1872 @@
+{
+  "medical": {
+    "0.1": {
+      "n_items": 1018,
+      "model_acc": 0.6846758349705304,
+      "n_reps": 20,
+      "T": 30540,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.0,
+          "ar": 0.0,
+          "maxR": 0.0,
+          "prec": 1.0,
+          "cov": 0.0,
+          "pv_num": 0,
+          "pv_den": 20
+        },
+        "Always-Act": {
+          "risk": 0.3153,
+          "ar": 1.0,
+          "maxR": 0.3288,
+          "prec": 0.6847,
+          "cov": 1.0,
+          "pv_num": 20,
+          "pv_den": 20
+        },
+        "Fixed-Threshold": {
+          "risk": 0.2688,
+          "ar": 0.8613,
+          "maxR": 0.2926,
+          "prec": 0.7312,
+          "cov": 0.9199,
+          "pv_num": 20,
+          "pv_den": 20
+        },
+        "Naive-Tuning": {
+          "risk": 0.2276,
+          "ar": 0.0072,
+          "maxR": 0.2276,
+          "prec": 0.7724,
+          "cov": 0.0081,
+          "pv_num": 20,
+          "pv_den": 20
+        },
+        "ACI": {
+          "risk": 0.1505,
+          "ar": 0.4982,
+          "maxR": 0.1593,
+          "prec": 0.8495,
+          "cov": 0.6182,
+          "pv_num": 20,
+          "pv_den": 20
+        },
+        "SAOCP": {
+          "risk": 0.1524,
+          "ar": 0.4887,
+          "maxR": 0.159,
+          "prec": 0.8476,
+          "cov": 0.605,
+          "pv_num": 20,
+          "pv_den": 20
+        }
+      }
+    },
+    "0.15": {
+      "n_items": 1018,
+      "model_acc": 0.6846758349705304,
+      "n_reps": 20,
+      "T": 30540,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.1145,
+          "ar": 0.2956,
+          "maxR": 0.1243,
+          "prec": 0.8855,
+          "cov": 0.3824,
+          "pv_num": 0,
+          "pv_den": 20
+        },
+        "Always-Act": {
+          "risk": 0.3153,
+          "ar": 1.0,
+          "maxR": 0.3288,
+          "prec": 0.6847,
+          "cov": 1.0,
+          "pv_num": 20,
+          "pv_den": 20
+        },
+        "Fixed-Threshold": {
+          "risk": 0.2688,
+          "ar": 0.8613,
+          "maxR": 0.2926,
+          "prec": 0.7312,
+          "cov": 0.9199,
+          "pv_num": 20,
+          "pv_den": 20
+        },
+        "Naive-Tuning": {
+          "risk": 0.2283,
+          "ar": 0.0073,
+          "maxR": 0.2283,
+          "prec": 0.7717,
+          "cov": 0.0082,
+          "pv_num": 20,
+          "pv_den": 20
+        },
+        "ACI": {
+          "risk": 0.1904,
+          "ar": 0.6488,
+          "maxR": 0.1971,
+          "prec": 0.8096,
+          "cov": 0.7672,
+          "pv_num": 20,
+          "pv_den": 20
+        },
+        "SAOCP": {
+          "risk": 0.1927,
+          "ar": 0.6322,
+          "maxR": 0.1968,
+          "prec": 0.8073,
+          "cov": 0.7454,
+          "pv_num": 20,
+          "pv_den": 20
+        }
+      }
+    },
+    "0.2": {
+      "n_items": 1018,
+      "model_acc": 0.6846758349705304,
+      "n_reps": 20,
+      "T": 30540,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.1143,
+          "ar": 0.3947,
+          "maxR": 0.1226,
+          "prec": 0.8857,
+          "cov": 0.5105,
+          "pv_num": 0,
+          "pv_den": 20
+        },
+        "Always-Act": {
+          "risk": 0.3153,
+          "ar": 1.0,
+          "maxR": 0.3288,
+          "prec": 0.6847,
+          "cov": 1.0,
+          "pv_num": 20,
+          "pv_den": 20
+        },
+        "Fixed-Threshold": {
+          "risk": 0.2688,
+          "ar": 0.8613,
+          "maxR": 0.2926,
+          "prec": 0.7312,
+          "cov": 0.9199,
+          "pv_num": 20,
+          "pv_den": 20
+        },
+        "Naive-Tuning": {
+          "risk": 0.2249,
+          "ar": 0.1723,
+          "maxR": 0.2294,
+          "prec": 0.7751,
+          "cov": 0.2027,
+          "pv_num": 20,
+          "pv_den": 20
+        },
+        "ACI": {
+          "risk": 0.2322,
+          "ar": 0.7519,
+          "maxR": 0.2326,
+          "prec": 0.7678,
+          "cov": 0.8432,
+          "pv_num": 20,
+          "pv_den": 20
+        },
+        "SAOCP": {
+          "risk": 0.2315,
+          "ar": 0.7488,
+          "maxR": 0.2317,
+          "prec": 0.7685,
+          "cov": 0.8404,
+          "pv_num": 20,
+          "pv_den": 20
+        }
+      }
+    },
+    "0.3": {
+      "n_items": 1018,
+      "model_acc": 0.6846758349705304,
+      "n_reps": 20,
+      "T": 30540,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.2577,
+          "ar": 0.823,
+          "maxR": 0.2578,
+          "prec": 0.7423,
+          "cov": 0.8922,
+          "pv_num": 0,
+          "pv_den": 20
+        },
+        "Always-Act": {
+          "risk": 0.3153,
+          "ar": 1.0,
+          "maxR": 0.3288,
+          "prec": 0.6847,
+          "cov": 1.0,
+          "pv_num": 20,
+          "pv_den": 20
+        },
+        "Fixed-Threshold": {
+          "risk": 0.2688,
+          "ar": 0.8613,
+          "maxR": 0.2926,
+          "prec": 0.7312,
+          "cov": 0.9199,
+          "pv_num": 2,
+          "pv_den": 20
+        },
+        "Naive-Tuning": {
+          "risk": 0.3066,
+          "ar": 0.9755,
+          "maxR": 0.3163,
+          "prec": 0.6934,
+          "cov": 0.9875,
+          "pv_num": 20,
+          "pv_den": 20
+        },
+        "ACI": {
+          "risk": 0.3038,
+          "ar": 0.9658,
+          "maxR": 0.3042,
+          "prec": 0.6962,
+          "cov": 0.982,
+          "pv_num": 20,
+          "pv_den": 20
+        },
+        "SAOCP": {
+          "risk": 0.2981,
+          "ar": 0.9496,
+          "maxR": 0.2985,
+          "prec": 0.7019,
+          "cov": 0.9735,
+          "pv_num": 0,
+          "pv_den": 20
+        }
+      }
+    },
+    "0.4": {
+      "n_items": 1273,
+      "model_acc": 0.0,
+      "n_reps": 20,
+      "T": 38190,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.374,
+          "ar": 0.8876,
+          "maxR": 0.5246,
+          "prec": 0,
+          "cov": 0,
+          "pv_num": 18,
+          "pv_den": 20
+        },
+        "Always-Act": {
+          "risk": 0.4053,
+          "ar": 1.0,
+          "maxR": 0.7759,
+          "prec": 0,
+          "cov": 0,
+          "pv_num": 20,
+          "pv_den": 20
+        },
+        "Fixed-Threshold": {
+          "risk": 0.2858,
+          "ar": 0.6597,
+          "maxR": 0.7366,
+          "prec": 0,
+          "cov": 0,
+          "pv_num": 17,
+          "pv_den": 20
+        },
+        "Naive-Tuning": {
+          "risk": 0.4043,
+          "ar": 0.9964,
+          "maxR": 0.7471,
+          "prec": 0,
+          "cov": 0,
+          "pv_num": 20,
+          "pv_den": 20
+        },
+        "ACI": {
+          "risk": 0.4015,
+          "ar": 0.9854,
+          "maxR": 0.7151,
+          "prec": 0,
+          "cov": 0,
+          "pv_num": 20,
+          "pv_den": 20
+        },
+        "SAOCP": {
+          "risk": 0.3933,
+          "ar": 0.9543,
+          "maxR": 0.7175,
+          "prec": 0,
+          "cov": 0,
+          "pv_num": 16,
+          "pv_den": 20
+        }
+      }
+    },
+    "0.5": {
+      "n_items": 40,
+      "model_acc": 0.5,
+      "n_reps": 3,
+      "T": 1200,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.0,
+          "ar": 0.0,
+          "maxR": 0.0,
+          "prec": 1.0,
+          "cov": 0.0,
+          "pv_num": 0,
+          "pv_den": 3
+        },
+        "Always-Act": {
+          "risk": 0.5,
+          "ar": 1.0,
+          "maxR": 0.5054,
+          "prec": 0.5,
+          "cov": 1.0,
+          "pv_num": 3,
+          "pv_den": 3
+        },
+        "Fixed-Threshold": {
+          "risk": 0.4312,
+          "ar": 0.5283,
+          "maxR": 0.4382,
+          "prec": 0.5688,
+          "cov": 0.6011,
+          "pv_num": 0,
+          "pv_den": 3
+        },
+        "Naive-Tuning": {
+          "risk": 0.5384,
+          "ar": 0.3439,
+          "maxR": 0.5393,
+          "prec": 0.4616,
+          "cov": 0.3439,
+          "pv_num": 2,
+          "pv_den": 3
+        },
+        "ACI": {
+          "risk": 0.4947,
+          "ar": 0.8944,
+          "maxR": 0.4972,
+          "prec": 0.5053,
+          "cov": 0.9039,
+          "pv_num": 0,
+          "pv_den": 3
+        },
+        "SAOCP": {
+          "risk": 0.4939,
+          "ar": 0.8836,
+          "maxR": 0.4964,
+          "prec": 0.5061,
+          "cov": 0.8944,
+          "pv_num": 1,
+          "pv_den": 3
+        }
+      }
+    },
+    "0.9": {
+      "n_items": 40,
+      "model_acc": 0.5,
+      "n_reps": 3,
+      "T": 1200,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.5,
+          "ar": 0.9889,
+          "maxR": 0.5056,
+          "prec": 0.5,
+          "cov": 0.9889,
+          "pv_num": 0,
+          "pv_den": 3
+        },
+        "Always-Act": {
+          "risk": 0.5,
+          "ar": 1.0,
+          "maxR": 0.5054,
+          "prec": 0.5,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 3
+        },
+        "Fixed-Threshold": {
+          "risk": 0.4312,
+          "ar": 0.5283,
+          "maxR": 0.4382,
+          "prec": 0.5688,
+          "cov": 0.6011,
+          "pv_num": 0,
+          "pv_den": 3
+        },
+        "Naive-Tuning": {
+          "risk": 0.5003,
+          "ar": 0.9839,
+          "maxR": 0.5064,
+          "prec": 0.4997,
+          "cov": 0.9833,
+          "pv_num": 0,
+          "pv_den": 3
+        },
+        "ACI": {
+          "risk": 0.4986,
+          "ar": 0.9761,
+          "maxR": 0.5031,
+          "prec": 0.5014,
+          "cov": 0.9789,
+          "pv_num": 0,
+          "pv_den": 3
+        },
+        "SAOCP": {
+          "risk": 0.4999,
+          "ar": 0.9947,
+          "maxR": 0.5052,
+          "prec": 0.5001,
+          "cov": 0.995,
+          "pv_num": 0,
+          "pv_den": 3
+        }
+      }
+    }
+  },
+  "pubmedqa": {
+    "0.1": {
+      "n_items": 800,
+      "model_acc": 0.76125,
+      "n_reps": 10,
+      "T": 24000,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.0,
+          "ar": 0.0,
+          "maxR": 0.0,
+          "prec": 1.0,
+          "cov": 0.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Always-Act": {
+          "risk": 0.2387,
+          "ar": 1.0,
+          "maxR": 0.2512,
+          "prec": 0.7613,
+          "cov": 1.0,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "Fixed-Threshold": {
+          "risk": 0.2387,
+          "ar": 1.0,
+          "maxR": 0.2512,
+          "prec": 0.7613,
+          "cov": 1.0,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "Naive-Tuning": {
+          "risk": 0.2402,
+          "ar": 0.0116,
+          "maxR": 0.2402,
+          "prec": 0.7598,
+          "cov": 0.0117,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "ACI": {
+          "risk": 0.1717,
+          "ar": 0.4137,
+          "maxR": 0.2107,
+          "prec": 0.8283,
+          "cov": 0.4501,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "SAOCP": {
+          "risk": 0.1806,
+          "ar": 0.3781,
+          "maxR": 0.2118,
+          "prec": 0.8194,
+          "cov": 0.407,
+          "pv_num": 10,
+          "pv_den": 10
+        }
+      }
+    },
+    "0.15": {
+      "n_items": 800,
+      "model_acc": 0.76125,
+      "n_reps": 10,
+      "T": 24000,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.0,
+          "ar": 0.0,
+          "maxR": 0.0,
+          "prec": 1.0,
+          "cov": 0.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Always-Act": {
+          "risk": 0.2387,
+          "ar": 1.0,
+          "maxR": 0.2512,
+          "prec": 0.7613,
+          "cov": 1.0,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "Fixed-Threshold": {
+          "risk": 0.2387,
+          "ar": 1.0,
+          "maxR": 0.2512,
+          "prec": 0.7613,
+          "cov": 1.0,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "Naive-Tuning": {
+          "risk": 0.2428,
+          "ar": 0.0121,
+          "maxR": 0.2428,
+          "prec": 0.7572,
+          "cov": 0.0121,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "ACI": {
+          "risk": 0.1928,
+          "ar": 0.6384,
+          "maxR": 0.2191,
+          "prec": 0.8072,
+          "cov": 0.6769,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "SAOCP": {
+          "risk": 0.204,
+          "ar": 0.5855,
+          "maxR": 0.2356,
+          "prec": 0.796,
+          "cov": 0.6122,
+          "pv_num": 10,
+          "pv_den": 10
+        }
+      }
+    },
+    "0.2": {
+      "n_items": 800,
+      "model_acc": 0.76125,
+      "n_reps": 10,
+      "T": 24000,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.1514,
+          "ar": 0.6345,
+          "maxR": 0.1607,
+          "prec": 0.8486,
+          "cov": 0.7073,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Always-Act": {
+          "risk": 0.2387,
+          "ar": 1.0,
+          "maxR": 0.2512,
+          "prec": 0.7613,
+          "cov": 1.0,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "Fixed-Threshold": {
+          "risk": 0.2387,
+          "ar": 1.0,
+          "maxR": 0.2512,
+          "prec": 0.7613,
+          "cov": 1.0,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "Naive-Tuning": {
+          "risk": 0.2486,
+          "ar": 0.0162,
+          "maxR": 0.2492,
+          "prec": 0.7514,
+          "cov": 0.0161,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "ACI": {
+          "risk": 0.2178,
+          "ar": 0.8492,
+          "maxR": 0.2381,
+          "prec": 0.7822,
+          "cov": 0.8726,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "SAOCP": {
+          "risk": 0.2239,
+          "ar": 0.8119,
+          "maxR": 0.242,
+          "prec": 0.7761,
+          "cov": 0.8277,
+          "pv_num": 10,
+          "pv_den": 10
+        }
+      }
+    },
+    "0.25": {
+      "n_items": 800,
+      "model_acc": 0.76125,
+      "n_reps": 10,
+      "T": 24000,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.2173,
+          "ar": 0.9196,
+          "maxR": 0.2175,
+          "prec": 0.7827,
+          "cov": 0.9456,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Always-Act": {
+          "risk": 0.2387,
+          "ar": 1.0,
+          "maxR": 0.2512,
+          "prec": 0.7613,
+          "cov": 1.0,
+          "pv_num": 4,
+          "pv_den": 10
+        },
+        "Fixed-Threshold": {
+          "risk": 0.2387,
+          "ar": 1.0,
+          "maxR": 0.2512,
+          "prec": 0.7613,
+          "cov": 1.0,
+          "pv_num": 4,
+          "pv_den": 10
+        },
+        "Naive-Tuning": {
+          "risk": 0.2482,
+          "ar": 0.8021,
+          "maxR": 0.2556,
+          "prec": 0.7518,
+          "cov": 0.802,
+          "pv_num": 4,
+          "pv_den": 10
+        },
+        "ACI": {
+          "risk": 0.2387,
+          "ar": 0.9986,
+          "maxR": 0.2473,
+          "prec": 0.7613,
+          "cov": 0.9986,
+          "pv_num": 3,
+          "pv_den": 10
+        },
+        "SAOCP": {
+          "risk": 0.2386,
+          "ar": 0.998,
+          "maxR": 0.248,
+          "prec": 0.7614,
+          "cov": 0.9981,
+          "pv_num": 2,
+          "pv_den": 10
+        }
+      }
+    },
+    "0.3": {
+      "n_items": 800,
+      "model_acc": 0.76125,
+      "n_reps": 10,
+      "T": 24000,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.2253,
+          "ar": 0.9616,
+          "maxR": 0.2279,
+          "prec": 0.7747,
+          "cov": 0.9786,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Always-Act": {
+          "risk": 0.2387,
+          "ar": 1.0,
+          "maxR": 0.2512,
+          "prec": 0.7613,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Fixed-Threshold": {
+          "risk": 0.2387,
+          "ar": 1.0,
+          "maxR": 0.2512,
+          "prec": 0.7613,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Naive-Tuning": {
+          "risk": 0.2387,
+          "ar": 1.0,
+          "maxR": 0.2512,
+          "prec": 0.7613,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "ACI": {
+          "risk": 0.2388,
+          "ar": 0.9994,
+          "maxR": 0.2502,
+          "prec": 0.7612,
+          "cov": 0.9994,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "SAOCP": {
+          "risk": 0.2388,
+          "ar": 0.9995,
+          "maxR": 0.2508,
+          "prec": 0.7612,
+          "cov": 0.9995,
+          "pv_num": 0,
+          "pv_den": 10
+        }
+      }
+    }
+  },
+  "tatqa": {
+    "0.1": {
+      "n_items": 565,
+      "model_acc": 0.7433628318584071,
+      "n_reps": 10,
+      "T": 16950,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.0,
+          "ar": 0.0,
+          "maxR": 0.0,
+          "prec": 1.0,
+          "cov": 0.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Always-Act": {
+          "risk": 0.2566,
+          "ar": 1.0,
+          "maxR": 0.2653,
+          "prec": 0.7434,
+          "cov": 1.0,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "Fixed-Threshold": {
+          "risk": 0.2566,
+          "ar": 0.9999,
+          "maxR": 0.2654,
+          "prec": 0.7434,
+          "cov": 0.9998,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "Naive-Tuning": {
+          "risk": 0.2655,
+          "ar": 0.0142,
+          "maxR": 0.2655,
+          "prec": 0.7345,
+          "cov": 0.014,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "ACI": {
+          "risk": 0.2362,
+          "ar": 0.2703,
+          "maxR": 0.262,
+          "prec": 0.7638,
+          "cov": 0.2777,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "SAOCP": {
+          "risk": 0.2478,
+          "ar": 0.2303,
+          "maxR": 0.267,
+          "prec": 0.7522,
+          "cov": 0.2331,
+          "pv_num": 10,
+          "pv_den": 10
+        }
+      }
+    },
+    "0.15": {
+      "n_items": 565,
+      "model_acc": 0.7433628318584071,
+      "n_reps": 10,
+      "T": 16950,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.0822,
+          "ar": 0.4574,
+          "maxR": 0.0881,
+          "prec": 0.9178,
+          "cov": 0.5648,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Always-Act": {
+          "risk": 0.2566,
+          "ar": 1.0,
+          "maxR": 0.2653,
+          "prec": 0.7434,
+          "cov": 1.0,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "Fixed-Threshold": {
+          "risk": 0.2566,
+          "ar": 0.9999,
+          "maxR": 0.2654,
+          "prec": 0.7434,
+          "cov": 0.9998,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "Naive-Tuning": {
+          "risk": 0.2655,
+          "ar": 0.0142,
+          "maxR": 0.2655,
+          "prec": 0.7345,
+          "cov": 0.014,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "ACI": {
+          "risk": 0.2336,
+          "ar": 0.4745,
+          "maxR": 0.2592,
+          "prec": 0.7664,
+          "cov": 0.4892,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "SAOCP": {
+          "risk": 0.2478,
+          "ar": 0.4309,
+          "maxR": 0.2648,
+          "prec": 0.7522,
+          "cov": 0.436,
+          "pv_num": 10,
+          "pv_den": 10
+        }
+      }
+    },
+    "0.2": {
+      "n_items": 565,
+      "model_acc": 0.7433628318584071,
+      "n_reps": 10,
+      "T": 16950,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.0823,
+          "ar": 0.499,
+          "maxR": 0.0892,
+          "prec": 0.9177,
+          "cov": 0.616,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Always-Act": {
+          "risk": 0.2566,
+          "ar": 1.0,
+          "maxR": 0.2653,
+          "prec": 0.7434,
+          "cov": 1.0,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "Fixed-Threshold": {
+          "risk": 0.2566,
+          "ar": 0.9999,
+          "maxR": 0.2654,
+          "prec": 0.7434,
+          "cov": 0.9998,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "Naive-Tuning": {
+          "risk": 0.2633,
+          "ar": 0.0147,
+          "maxR": 0.2633,
+          "prec": 0.7367,
+          "cov": 0.0146,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "ACI": {
+          "risk": 0.2414,
+          "ar": 0.7084,
+          "maxR": 0.2672,
+          "prec": 0.7586,
+          "cov": 0.7229,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "SAOCP": {
+          "risk": 0.2518,
+          "ar": 0.6691,
+          "maxR": 0.2701,
+          "prec": 0.7482,
+          "cov": 0.6734,
+          "pv_num": 10,
+          "pv_den": 10
+        }
+      }
+    },
+    "0.25": {
+      "n_items": 565,
+      "model_acc": 0.7433628318584071,
+      "n_reps": 10,
+      "T": 16950,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.0823,
+          "ar": 0.5086,
+          "maxR": 0.0887,
+          "prec": 0.9177,
+          "cov": 0.6279,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Always-Act": {
+          "risk": 0.2566,
+          "ar": 1.0,
+          "maxR": 0.2653,
+          "prec": 0.7434,
+          "cov": 1.0,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "Fixed-Threshold": {
+          "risk": 0.2566,
+          "ar": 0.9999,
+          "maxR": 0.2654,
+          "prec": 0.7434,
+          "cov": 0.9998,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "Naive-Tuning": {
+          "risk": 0.2623,
+          "ar": 0.8025,
+          "maxR": 0.2699,
+          "prec": 0.7377,
+          "cov": 0.8025,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "ACI": {
+          "risk": 0.2549,
+          "ar": 0.9613,
+          "maxR": 0.2662,
+          "prec": 0.7451,
+          "cov": 0.9635,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "SAOCP": {
+          "risk": 0.2565,
+          "ar": 0.9488,
+          "maxR": 0.2655,
+          "prec": 0.7435,
+          "cov": 0.949,
+          "pv_num": 10,
+          "pv_den": 10
+        }
+      }
+    },
+    "0.3": {
+      "n_items": 565,
+      "model_acc": 0.7433628318584071,
+      "n_reps": 10,
+      "T": 16950,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.2452,
+          "ar": 0.9328,
+          "maxR": 0.2454,
+          "prec": 0.7548,
+          "cov": 0.9472,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Always-Act": {
+          "risk": 0.2566,
+          "ar": 1.0,
+          "maxR": 0.2653,
+          "prec": 0.7434,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Fixed-Threshold": {
+          "risk": 0.2566,
+          "ar": 0.9999,
+          "maxR": 0.2654,
+          "prec": 0.7434,
+          "cov": 0.9998,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Naive-Tuning": {
+          "risk": 0.2566,
+          "ar": 0.9999,
+          "maxR": 0.2654,
+          "prec": 0.7434,
+          "cov": 0.9998,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "ACI": {
+          "risk": 0.2566,
+          "ar": 0.9986,
+          "maxR": 0.2651,
+          "prec": 0.7434,
+          "cov": 0.9986,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "SAOCP": {
+          "risk": 0.2566,
+          "ar": 0.9987,
+          "maxR": 0.2652,
+          "prec": 0.7434,
+          "cov": 0.9987,
+          "pv_num": 0,
+          "pv_den": 10
+        }
+      }
+    }
+  },
+  "mednli": {
+    "0.1": {
+      "n_items": 1422,
+      "model_acc": 0.790436005625879,
+      "n_reps": 10,
+      "T": 42660,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.0653,
+          "ar": 0.1943,
+          "maxR": 0.0689,
+          "prec": 0.9347,
+          "cov": 0.2298,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Always-Act": {
+          "risk": 0.2096,
+          "ar": 1.0,
+          "maxR": 0.2209,
+          "prec": 0.7904,
+          "cov": 1.0,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "Fixed-Threshold": {
+          "risk": 0.2095,
+          "ar": 1.0,
+          "maxR": 0.2209,
+          "prec": 0.7905,
+          "cov": 1.0,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "Naive-Tuning": {
+          "risk": 0.1861,
+          "ar": 0.0072,
+          "maxR": 0.1861,
+          "prec": 0.8139,
+          "cov": 0.0074,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "ACI": {
+          "risk": 0.1273,
+          "ar": 0.6482,
+          "maxR": 0.147,
+          "prec": 0.8727,
+          "cov": 0.7157,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "SAOCP": {
+          "risk": 0.1355,
+          "ar": 0.5846,
+          "maxR": 0.1486,
+          "prec": 0.8645,
+          "cov": 0.6393,
+          "pv_num": 10,
+          "pv_den": 10
+        }
+      }
+    },
+    "0.15": {
+      "n_items": 1422,
+      "model_acc": 0.790436005625879,
+      "n_reps": 10,
+      "T": 42660,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.0956,
+          "ar": 0.2475,
+          "maxR": 0.0956,
+          "prec": 0.9044,
+          "cov": 0.2831,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Always-Act": {
+          "risk": 0.2096,
+          "ar": 1.0,
+          "maxR": 0.2209,
+          "prec": 0.7904,
+          "cov": 1.0,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "Fixed-Threshold": {
+          "risk": 0.2095,
+          "ar": 1.0,
+          "maxR": 0.2209,
+          "prec": 0.7905,
+          "cov": 1.0,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "Naive-Tuning": {
+          "risk": 0.1876,
+          "ar": 0.1221,
+          "maxR": 0.1885,
+          "prec": 0.8124,
+          "cov": 0.1294,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "ACI": {
+          "risk": 0.1659,
+          "ar": 0.8249,
+          "maxR": 0.1785,
+          "prec": 0.8341,
+          "cov": 0.8705,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "SAOCP": {
+          "risk": 0.1702,
+          "ar": 0.789,
+          "maxR": 0.1814,
+          "prec": 0.8298,
+          "cov": 0.8282,
+          "pv_num": 10,
+          "pv_den": 10
+        }
+      }
+    },
+    "0.2": {
+      "n_items": 1422,
+      "model_acc": 0.790436005625879,
+      "n_reps": 10,
+      "T": 42660,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.0668,
+          "ar": 0.2894,
+          "maxR": 0.0732,
+          "prec": 0.9332,
+          "cov": 0.3416,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Always-Act": {
+          "risk": 0.2096,
+          "ar": 1.0,
+          "maxR": 0.2209,
+          "prec": 0.7904,
+          "cov": 1.0,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "Fixed-Threshold": {
+          "risk": 0.2095,
+          "ar": 1.0,
+          "maxR": 0.2209,
+          "prec": 0.7905,
+          "cov": 1.0,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "Naive-Tuning": {
+          "risk": 0.2075,
+          "ar": 0.9905,
+          "maxR": 0.2171,
+          "prec": 0.7925,
+          "cov": 0.993,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "ACI": {
+          "risk": 0.2027,
+          "ar": 0.9716,
+          "maxR": 0.2088,
+          "prec": 0.7973,
+          "cov": 0.9801,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "SAOCP": {
+          "risk": 0.2023,
+          "ar": 0.9604,
+          "maxR": 0.2114,
+          "prec": 0.7977,
+          "cov": 0.9692,
+          "pv_num": 10,
+          "pv_den": 10
+        }
+      }
+    },
+    "0.25": {
+      "n_items": 1422,
+      "model_acc": 0.790436005625879,
+      "n_reps": 10,
+      "T": 42660,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.207,
+          "ar": 0.9695,
+          "maxR": 0.2073,
+          "prec": 0.793,
+          "cov": 0.9726,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Always-Act": {
+          "risk": 0.2096,
+          "ar": 1.0,
+          "maxR": 0.2209,
+          "prec": 0.7904,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Fixed-Threshold": {
+          "risk": 0.2095,
+          "ar": 1.0,
+          "maxR": 0.2209,
+          "prec": 0.7905,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Naive-Tuning": {
+          "risk": 0.2096,
+          "ar": 1.0,
+          "maxR": 0.2209,
+          "prec": 0.7904,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "ACI": {
+          "risk": 0.2095,
+          "ar": 0.9997,
+          "maxR": 0.2199,
+          "prec": 0.7905,
+          "cov": 0.9997,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "SAOCP": {
+          "risk": 0.2095,
+          "ar": 0.9997,
+          "maxR": 0.2195,
+          "prec": 0.7905,
+          "cov": 0.9998,
+          "pv_num": 0,
+          "pv_den": 10
+        }
+      }
+    },
+    "0.3": {
+      "n_items": 1422,
+      "model_acc": 0.790436005625879,
+      "n_reps": 10,
+      "T": 42660,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.2091,
+          "ar": 0.9933,
+          "maxR": 0.2106,
+          "prec": 0.7909,
+          "cov": 0.9939,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Always-Act": {
+          "risk": 0.2096,
+          "ar": 1.0,
+          "maxR": 0.2209,
+          "prec": 0.7904,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Fixed-Threshold": {
+          "risk": 0.2095,
+          "ar": 1.0,
+          "maxR": 0.2209,
+          "prec": 0.7905,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Naive-Tuning": {
+          "risk": 0.2096,
+          "ar": 1.0,
+          "maxR": 0.2209,
+          "prec": 0.7904,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "ACI": {
+          "risk": 0.2095,
+          "ar": 0.9998,
+          "maxR": 0.2201,
+          "prec": 0.7905,
+          "cov": 0.9998,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "SAOCP": {
+          "risk": 0.2095,
+          "ar": 0.9998,
+          "maxR": 0.2203,
+          "prec": 0.7905,
+          "cov": 0.9999,
+          "pv_num": 0,
+          "pv_den": 10
+        }
+      }
+    }
+  },
+  "gsm8k": {
+    "0.01": {
+      "n_items": 1055,
+      "model_acc": 0.9497630331753555,
+      "n_reps": 10,
+      "T": 31650,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.0,
+          "ar": 0.0,
+          "maxR": 0.0,
+          "prec": 1.0,
+          "cov": 0.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Always-Act": {
+          "risk": 0.0502,
+          "ar": 1.0,
+          "maxR": 0.0571,
+          "prec": 0.9498,
+          "cov": 1.0,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "Fixed-Threshold": {
+          "risk": 0.0468,
+          "ar": 0.9955,
+          "maxR": 0.057,
+          "prec": 0.9532,
+          "cov": 0.999,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "Naive-Tuning": {
+          "risk": 0.0511,
+          "ar": 0.0147,
+          "maxR": 0.0511,
+          "prec": 0.9489,
+          "cov": 0.0147,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "ACI": {
+          "risk": 0.0318,
+          "ar": 0.2189,
+          "maxR": 0.0542,
+          "prec": 0.9682,
+          "cov": 0.2231,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "SAOCP": {
+          "risk": 0.0343,
+          "ar": 0.2564,
+          "maxR": 0.0538,
+          "prec": 0.9657,
+          "cov": 0.2607,
+          "pv_num": 10,
+          "pv_den": 10
+        }
+      }
+    },
+    "0.03": {
+      "n_items": 1055,
+      "model_acc": 0.9497630331753555,
+      "n_reps": 10,
+      "T": 31650,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.0,
+          "ar": 0.0,
+          "maxR": 0.0,
+          "prec": 1.0,
+          "cov": 0.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Always-Act": {
+          "risk": 0.0502,
+          "ar": 1.0,
+          "maxR": 0.0571,
+          "prec": 0.9498,
+          "cov": 1.0,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "Fixed-Threshold": {
+          "risk": 0.0468,
+          "ar": 0.9955,
+          "maxR": 0.057,
+          "prec": 0.9532,
+          "cov": 0.999,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "Naive-Tuning": {
+          "risk": 0.0498,
+          "ar": 0.3407,
+          "maxR": 0.0553,
+          "prec": 0.9502,
+          "cov": 0.3429,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "ACI": {
+          "risk": 0.0386,
+          "ar": 0.6675,
+          "maxR": 0.0557,
+          "prec": 0.9614,
+          "cov": 0.6756,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "SAOCP": {
+          "risk": 0.0411,
+          "ar": 0.6804,
+          "maxR": 0.0555,
+          "prec": 0.9589,
+          "cov": 0.6869,
+          "pv_num": 10,
+          "pv_den": 10
+        }
+      }
+    },
+    "0.05": {
+      "n_items": 1055,
+      "model_acc": 0.9497630331753555,
+      "n_reps": 10,
+      "T": 31650,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.0256,
+          "ar": 0.7172,
+          "maxR": 0.0257,
+          "prec": 0.9744,
+          "cov": 0.7358,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Always-Act": {
+          "risk": 0.0502,
+          "ar": 1.0,
+          "maxR": 0.0571,
+          "prec": 0.9498,
+          "cov": 1.0,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "Fixed-Threshold": {
+          "risk": 0.0468,
+          "ar": 0.9955,
+          "maxR": 0.057,
+          "prec": 0.9532,
+          "cov": 0.999,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "Naive-Tuning": {
+          "risk": 0.0468,
+          "ar": 0.9954,
+          "maxR": 0.0569,
+          "prec": 0.9532,
+          "cov": 0.999,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "ACI": {
+          "risk": 0.0482,
+          "ar": 0.9974,
+          "maxR": 0.0563,
+          "prec": 0.9518,
+          "cov": 0.9995,
+          "pv_num": 10,
+          "pv_den": 10
+        },
+        "SAOCP": {
+          "risk": 0.0468,
+          "ar": 0.9954,
+          "maxR": 0.0563,
+          "prec": 0.9532,
+          "cov": 0.999,
+          "pv_num": 10,
+          "pv_den": 10
+        }
+      }
+    },
+    "0.075": {
+      "n_items": 1055,
+      "model_acc": 0.9497630331753555,
+      "n_reps": 10,
+      "T": 31650,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.0287,
+          "ar": 0.8583,
+          "maxR": 0.0292,
+          "prec": 0.9713,
+          "cov": 0.8777,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Always-Act": {
+          "risk": 0.0502,
+          "ar": 1.0,
+          "maxR": 0.0571,
+          "prec": 0.9498,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Fixed-Threshold": {
+          "risk": 0.0468,
+          "ar": 0.9955,
+          "maxR": 0.057,
+          "prec": 0.9532,
+          "cov": 0.999,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Naive-Tuning": {
+          "risk": 0.0502,
+          "ar": 1.0,
+          "maxR": 0.0571,
+          "prec": 0.9498,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "ACI": {
+          "risk": 0.0502,
+          "ar": 1.0,
+          "maxR": 0.0571,
+          "prec": 0.9498,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "SAOCP": {
+          "risk": 0.0502,
+          "ar": 1.0,
+          "maxR": 0.0571,
+          "prec": 0.9498,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        }
+      }
+    },
+    "0.1": {
+      "n_items": 1055,
+      "model_acc": 0.9497630331753555,
+      "n_reps": 10,
+      "T": 31650,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.0379,
+          "ar": 0.9439,
+          "maxR": 0.0387,
+          "prec": 0.9621,
+          "cov": 0.9562,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Always-Act": {
+          "risk": 0.0502,
+          "ar": 1.0,
+          "maxR": 0.0571,
+          "prec": 0.9498,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Fixed-Threshold": {
+          "risk": 0.0468,
+          "ar": 0.9955,
+          "maxR": 0.057,
+          "prec": 0.9532,
+          "cov": 0.999,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Naive-Tuning": {
+          "risk": 0.0502,
+          "ar": 1.0,
+          "maxR": 0.0571,
+          "prec": 0.9498,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "ACI": {
+          "risk": 0.0502,
+          "ar": 1.0,
+          "maxR": 0.0571,
+          "prec": 0.9498,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "SAOCP": {
+          "risk": 0.0502,
+          "ar": 1.0,
+          "maxR": 0.0571,
+          "prec": 0.9498,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        }
+      }
+    },
+    "0.15": {
+      "n_items": 1055,
+      "model_acc": 0.9497630331753555,
+      "n_reps": 10,
+      "T": 31650,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.0502,
+          "ar": 0.9897,
+          "maxR": 0.0553,
+          "prec": 0.9498,
+          "cov": 0.9898,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Always-Act": {
+          "risk": 0.0502,
+          "ar": 1.0,
+          "maxR": 0.0571,
+          "prec": 0.9498,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Fixed-Threshold": {
+          "risk": 0.0468,
+          "ar": 0.9955,
+          "maxR": 0.057,
+          "prec": 0.9532,
+          "cov": 0.999,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Naive-Tuning": {
+          "risk": 0.0502,
+          "ar": 1.0,
+          "maxR": 0.0571,
+          "prec": 0.9498,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "ACI": {
+          "risk": 0.0502,
+          "ar": 1.0,
+          "maxR": 0.0571,
+          "prec": 0.9498,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "SAOCP": {
+          "risk": 0.0502,
+          "ar": 1.0,
+          "maxR": 0.0571,
+          "prec": 0.9498,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        }
+      }
+    },
+    "0.2": {
+      "n_items": 1055,
+      "model_acc": 0.9497630331753555,
+      "n_reps": 10,
+      "T": 31650,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.0502,
+          "ar": 0.9951,
+          "maxR": 0.0551,
+          "prec": 0.9498,
+          "cov": 0.9951,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Always-Act": {
+          "risk": 0.0502,
+          "ar": 1.0,
+          "maxR": 0.0571,
+          "prec": 0.9498,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Fixed-Threshold": {
+          "risk": 0.0468,
+          "ar": 0.9955,
+          "maxR": 0.057,
+          "prec": 0.9532,
+          "cov": 0.999,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Naive-Tuning": {
+          "risk": 0.0502,
+          "ar": 1.0,
+          "maxR": 0.0571,
+          "prec": 0.9498,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "ACI": {
+          "risk": 0.0502,
+          "ar": 1.0,
+          "maxR": 0.0571,
+          "prec": 0.9498,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "SAOCP": {
+          "risk": 0.0502,
+          "ar": 1.0,
+          "maxR": 0.0571,
+          "prec": 0.9498,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        }
+      }
+    },
+    "0.3": {
+      "n_items": 1055,
+      "model_acc": 0.9497630331753555,
+      "n_reps": 10,
+      "T": 31650,
+      "methods": {
+        "CSA-RLVR": {
+          "risk": 0.0502,
+          "ar": 0.9984,
+          "maxR": 0.056,
+          "prec": 0.9498,
+          "cov": 0.9984,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Always-Act": {
+          "risk": 0.0502,
+          "ar": 1.0,
+          "maxR": 0.0571,
+          "prec": 0.9498,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Fixed-Threshold": {
+          "risk": 0.0468,
+          "ar": 0.9955,
+          "maxR": 0.057,
+          "prec": 0.9532,
+          "cov": 0.999,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "Naive-Tuning": {
+          "risk": 0.0502,
+          "ar": 1.0,
+          "maxR": 0.0571,
+          "prec": 0.9498,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "ACI": {
+          "risk": 0.0502,
+          "ar": 1.0,
+          "maxR": 0.0571,
+          "prec": 0.9498,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        },
+        "SAOCP": {
+          "risk": 0.0502,
+          "ar": 1.0,
+          "maxR": 0.0571,
+          "prec": 0.9498,
+          "cov": 1.0,
+          "pv_num": 0,
+          "pv_den": 10
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "benchmark": "MedQA",
+  "alpha": 0.05,
+  "n_reps": 10,
+  "quartile": {
+    "CRC": {
+      "final_risk_mean": 0.0,
+      "final_ar_mean": 0.0,
+      "max_risk_mean": 0.0,
+      "max_risk_max": 0.0,
+      "pathwise_violation_rate": "0/10"
+    },
+    "NEX-Conf": {
+      "final_risk_mean": 0.014916989139932594,
+      "final_ar_mean": 0.052462344466273736,
+      "max_risk_mean": 0.014916989139932594,
+      "max_risk_max": 0.14916989139932593,
+      "pathwise_violation_rate": "1/10"
+    },
+    "Mohri-Conf": {
+      "final_risk_mean": 0.0,
+      "final_ar_mean": 0.0,
+      "max_risk_mean": 0.0,
+      "max_risk_max": 0.0,
+      "pathwise_violation_rate": "0/10"
+    }
+  },
+  "multi": {
+    "CRC": {
+      "final_risk_mean": 0.0,
+      "final_ar_mean": 0.0,
+      "max_risk_mean": 0.0,
+      "max_risk_max": 0.0,
+      "pathwise_violation_rate": "0/10"
+    },
+    "NEX-Conf": {
+      "final_risk_mean": 0.11453177112191401,
+      "final_ar_mean": 0.4044269810085134,
+      "max_risk_mean": 0.12698346998287596,
+      "max_risk_max": 0.13424124513618677,
+      "pathwise_violation_rate": "10/10"
+    },
+    "Mohri-Conf": {
+      "final_risk_mean": 0.0,
+      "final_ar_mean": 0.0,
+      "max_risk_mean": 0.0,
+      "max_risk_max": 0.0,
+      "pathwise_violation_rate": "0/10"
+    }
+  },
+  "adversarial": {
+    "CRC": {
+      "final_risk_mean": 0.0,
+      "final_ar_mean": 0.0,
+      "max_risk_mean": 0.0,
+      "max_risk_max": 0.0,
+      "pathwise_violation_rate": "0/10"
+    },
+    "NEX-Conf": {
+      "final_risk_mean": 0.045812244731611815,
+      "final_ar_mean": 0.161597423510467,
+      "max_risk_mean": 0.05065359851165961,
+      "max_risk_max": 0.1316793893129771,
+      "pathwise_violation_rate": "4/10"
+    },
+    "Mohri-Conf": {
+      "final_risk_mean": 0.0,
+      "final_ar_mean": 0.0,
+      "max_risk_mean": 0.0,
+      "max_risk_max": 0.0,
+      "pathwise_violation_rate": "0/10"
+    }
+  },
+  "window_outrun": {
+    "CRC": {
+      "final_risk_mean": 0.0,
+      "final_ar_mean": 0.0,
+      "max_risk_mean": 0.0,
+      "max_risk_max": 0.0,
+      "pathwise_violation_rate": "0/10"
+    },
+    "NEX-Conf": {
+      "final_risk_mean": 0.030042313117066288,
+      "final_ar_mean": 0.09341238471673255,
+      "max_risk_mean": 0.0301699716713881,
+      "max_risk_max": 0.301699716713881,
+      "pathwise_violation_rate": "1/10"
+    },
+    "Mohri-Conf": {
+      "final_risk_mean": 0.0,
+      "final_ar_mean": 0.0,
+      "max_risk_mean": 0.0,
+      "max_risk_max": 0.0,
+      "pathwise_violation_rate": "0/10"
+    }
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "benchmark": "medqa",
+  "alpha": 0.2,
+  "n_reps": 10,
+  "quartile": {
+    "CSA-RLVR": {
+      "final_risk_mean": 0.3007203900595348,
+      "final_ar_mean": 0.7601702685003274,
+      "max_risk_mean": 0.3007593155053235,
+      "max_risk_max": 0.3022608695652174,
+      "pathwise_violation_rate": "10/10"
+    },
+    "Always-Act": {
+      "final_risk_mean": 0.3634577603143418,
+      "final_ar_mean": 1.0,
+      "max_risk_mean": 0.3634856997946077,
+      "max_risk_max": 0.363564875491481,
+      "pathwise_violation_rate": "10/10"
+    },
+    "Fixed-Threshold": {
+      "final_risk_mean": 0.1220472440944882,
+      "final_ar_mean": 0.4990176817288801,
+      "max_risk_mean": 0.1275500086147398,
+      "max_risk_max": 0.13099041533546327,
+      "pathwise_violation_rate": "0/10"
+    },
+    "Naive-Tuning": {
+      "final_risk_mean": 0.23520820782934218,
+      "final_ar_mean": 0.6529338572364114,
+      "max_risk_mean": 0.2352400168096615,
+      "max_risk_max": 0.2359775641025641,
+      "pathwise_violation_rate": "10/10"
+    },
+    "ACI": {
+      "final_risk_mean": 0.2047421121412302,
+      "final_ar_mean": 0.613071381794368,
+      "max_risk_mean": 0.2047534590225956,
+      "max_risk_max": 0.20549273021001616,
+      "pathwise_violation_rate": "10/10"
+    },
+    "SAOCP": {
+      "final_risk_mean": 0.2046448301454693,
+      "final_ar_mean": 0.6131696136214801,
+      "max_risk_mean": 0.20465620943000004,
+      "max_risk_max": 0.2055340223944875,
+      "pathwise_violation_rate": "10/10"
+    },
+    "LTT": {
+      "final_risk_mean": 0.37162491536899117,
+      "final_ar_mean": 0.9672560576293385,
+      "max_risk_mean": 0.37165673211468303,
+      "max_risk_max": 0.3717479674796748,
+      "pathwise_violation_rate": "10/10"
+    },
+    "CRC": {
+      "final_risk_mean": 0.37162491536899117,
+      "final_ar_mean": 0.9672560576293385,
+      "max_risk_mean": 0.37165673211468303,
+      "max_risk_max": 0.3717479674796748,
+      "pathwise_violation_rate": "10/10"
+    },
+    "NEX-Conf": {
+      "final_risk_mean": 0.12359439740648923,
+      "final_ar_mean": 0.497380484610347,
+      "max_risk_mean": 0.12810700502831154,
+      "max_risk_max": 0.1346153846153846,
+      "pathwise_violation_rate": "0/10"
+    },
+    "Mohri-Conf": {
+      "final_risk_mean": 0.37162491536899117,
+      "final_ar_mean": 0.9672560576293385,
+      "max_risk_mean": 0.37165673211468303,
+      "max_risk_max": 0.3717479674796748,
+      "pathwise_violation_rate": "10/10"
+    }
+  },
+  "multi": {
+    "CSA-RLVR": {
+      "final_risk_mean": 0.11444788814950649,
+      "final_ar_mean": 0.39581859855926654,
+      "max_risk_mean": 0.12315326716097466,
+      "max_risk_max": 0.1322463768115942,
+      "pathwise_violation_rate": "0/10"
+    },
+    "Always-Act": {
+      "final_risk_mean": 0.3153241650294695,
+      "final_ar_mean": 1.0,
+      "max_risk_mean": 0.3216397684988451,
+      "max_risk_max": 0.32665832290362956,
+      "pathwise_violation_rate": "10/10"
+    },
+    "Fixed-Threshold": {
+      "final_risk_mean": 0.19196428571428575,
+      "final_ar_mean": 0.6601178781925344,
+      "max_risk_mean": 0.19857255530587434,
+      "max_risk_max": 0.2046908315565032,
+      "pathwise_violation_rate": "2/10"
+    },
+    "Naive-Tuning": {
+      "final_risk_mean": 0.20547797892851521,
+      "final_ar_mean": 0.40320563195808773,
+      "max_risk_mean": 0.21762766899720706,
+      "max_risk_max": 0.24313725490196078,
+      "pathwise_violation_rate": "9/10"
+    },
+    "ACI": {
+      "final_risk_mean": 0.23183518019290209,
+      "final_ar_mean": 0.7536902423051737,
+      "max_risk_mean": 0.23209696756303608,
+      "max_risk_max": 0.23282525464133497,
+      "pathwise_violation_rate": "10/10"
+    },
+    "SAOCP": {
+      "final_risk_mean": 0.22903868764371288,
+      "final_ar_mean": 0.7400753110674525,
+      "max_risk_mean": 0.22917679543327085,
+      "max_risk_max": 0.22970378496982996,
+      "pathwise_violation_rate": "10/10"
+    },
+    "LTT": {
+      "final_risk_mean": 0.10298989492726673,
+      "final_ar_mean": 0.36402750491159136,
+      "max_risk_mean": 0.1111322279270768,
+      "max_risk_max": 0.13320079522862824,
+      "pathwise_violation_rate": "0/10"
+    },
+    "CRC": {
+      "final_risk_mean": 0.19217244769491987,
+      "final_ar_mean": 0.6482252783235101,
+      "max_risk_mean": 0.20556802096108834,
+      "max_risk_max": 0.2222222222222222,
+      "pathwise_violation_rate": "7/10"
+    },
+    "NEX-Conf": {
+      "final_risk_mean": 0.17341092733017943,
+      "final_ar_mean": 0.5593483955468239,
+      "max_risk_mean": 0.18873608957895388,
+      "max_risk_max": 0.19455252918287938,
+      "pathwise_violation_rate": "0/10"
+    },
+    "Mohri-Conf": {
+      "final_risk_mean": 0.11438445275039599,
+      "final_ar_mean": 0.40445972495088406,
+      "max_risk_mean": 0.12275789121699479,
+      "max_risk_max": 0.13320079522862824,
+      "pathwise_violation_rate": "0/10"
+    }
+  },
+  "adversarial": {
+    "CSA-RLVR": {
+      "final_risk_mean": 0.28070642575162597,
+      "final_ar_mean": 0.863207729468599,
+      "max_risk_mean": 0.28082988991746893,
+      "max_risk_max": 0.2817494641043962,
+      "pathwise_violation_rate": "10/10"
+    },
+    "Always-Act": {
+      "final_risk_mean": 0.3207729468599033,
+      "final_ar_mean": 1.0,
+      "max_risk_mean": 0.3207800577789822,
+      "max_risk_max": 0.3208039424098947,
+      "pathwise_violation_rate": "10/10"
+    },
+    "Fixed-Threshold": {
+      "final_risk_mean": 0.19196428571428575,
+      "final_ar_mean": 0.6492753623188406,
+      "max_risk_mean": 0.1919804753046308,
+      "max_risk_max": 0.19200238142488588,
+      "pathwise_violation_rate": "0/10"
+    },
+    "Naive-Tuning": {
+      "final_risk_mean": 0.22617957481986078,
+      "final_ar_mean": 0.6465571658615137,
+      "max_risk_mean": 0.226227278389183,
+      "max_risk_max": 0.22705578204235854,
+      "pathwise_violation_rate": "10/10"
+    },
+    "ACI": {
+      "final_risk_mean": 0.20834130204653967,
+      "final_ar_mean": 0.6830273752012882,
+      "max_risk_mean": 0.20834326691762906,
+      "max_risk_max": 0.20854401965880628,
+      "pathwise_violation_rate": "10/10"
+    },
+    "SAOCP": {
+      "final_risk_mean": 0.20976026498682718,
+      "final_ar_mean": 0.6800354267310789,
+      "max_risk_mean": 0.2097622544981983,
+      "max_risk_max": 0.21034088745000953,
+      "pathwise_violation_rate": "10/10"
+    },
+    "LTT": {
+      "final_risk_mean": 0.32367266775777415,
+      "final_ar_mean": 0.9838969404186797,
+      "max_risk_mean": 0.3236799910698787,
+      "max_risk_max": 0.32378458012768047,
+      "pathwise_violation_rate": "10/10"
+    },
+    "CRC": {
+      "final_risk_mean": 0.32367266775777415,
+      "final_ar_mean": 0.9838969404186797,
+      "max_risk_mean": 0.3236799910698787,
+      "max_risk_max": 0.32378458012768047,
+      "pathwise_violation_rate": "10/10"
+    },
+    "NEX-Conf": {
+      "final_risk_mean": 0.16851992804025231,
+      "final_ar_mean": 0.5608470209339774,
+      "max_risk_mean": 0.16962725101676712,
+      "max_risk_max": 0.1901558073654391,
+      "pathwise_violation_rate": "0/10"
+    },
+    "Mohri-Conf": {
+      "final_risk_mean": 0.32367266775777415,
+      "final_ar_mean": 0.9838969404186797,
+      "max_risk_mean": 0.3236799910698787,
+      "max_risk_max": 0.32378458012768047,
+      "pathwise_violation_rate": "10/10"
+    }
+  },
+  "window_outrun": {
+    "CSA-RLVR": {
+      "final_risk_mean": 0.046798029556650245,
+      "final_ar_mean": 0.026745718050065877,
+      "max_risk_mean": 0.046798029556650245,
+      "max_risk_max": 0.46798029556650245,
+      "pathwise_violation_rate": "1/10"
+    },
+    "Always-Act": {
+      "final_risk_mean": 0.2812911725955204,
+      "final_ar_mean": 1.0,
+      "max_risk_mean": 0.28177439739034427,
+      "max_risk_max": 0.28326745718050067,
+      "pathwise_violation_rate": "10/10"
+    },
+    "Fixed-Threshold": {
+      "final_risk_mean": 0.12180746561886051,
+      "final_ar_mean": 0.6706192358366272,
+      "max_risk_mean": 0.12318921171986168,
+      "max_risk_max": 0.124,
+      "pathwise_violation_rate": "0/10"
+    },
+    "Naive-Tuning": {
+      "final_risk_mean": 0.2812911725955204,
+      "final_ar_mean": 1.0,
+      "max_risk_mean": 0.28177439739034427,
+      "max_risk_max": 0.28326745718050067,
+      "pathwise_violation_rate": "10/10"
+    },
+    "ACI": {
+      "final_risk_mean": 0.1912915553753872,
+      "final_ar_mean": 0.7927536231884058,
+      "max_risk_mean": 0.191611322464867,
+      "max_risk_max": 0.19237147595356552,
+      "pathwise_violation_rate": "0/10"
+    },
+    "SAOCP": {
+      "final_risk_mean": 0.14550137472209881,
+      "final_ar_mean": 0.7061923583662714,
+      "max_risk_mean": 0.14550137472209881,
+      "max_risk_max": 0.15257352941176472,
+      "pathwise_violation_rate": "0/10"
+    },
+    "LTT": {
+      "final_risk_mean": 0.5884169884169885,
+      "final_ar_mean": 0.3412384716732543,
+      "max_risk_mean": 0.5884169884169885,
+      "max_risk_max": 0.5945945945945946,
+      "pathwise_violation_rate": "10/10"
+    },
+    "CRC": {
+      "final_risk_mean": 0.5884169884169885,
+      "final_ar_mean": 0.3412384716732543,
+      "max_risk_mean": 0.5884169884169885,
+      "max_risk_max": 0.5945945945945946,
+      "pathwise_violation_rate": "10/10"
+    },
+    "NEX-Conf": {
+      "final_risk_mean": 0.14625782658008418,
+      "final_ar_mean": 0.638471673254282,
+      "max_risk_mean": 0.14625782658008418,
+      "max_risk_max": 0.15811088295687886,
+      "pathwise_violation_rate": "0/10"
+    },
+    "Mohri-Conf": {
+      "final_risk_mean": 0.5884169884169885,
+      "final_ar_mean": 0.3412384716732543,
+      "max_risk_mean": 0.5884169884169885,
+      "max_risk_max": 0.5945945945945946,
+      "pathwise_violation_rate": "10/10"
+    }
+  }
+}

@@ -1,0 +1,1998 @@
+{
+  "medical": {
+    "benchmark": "medical",
+    "label": "MedQA",
+    "n_items": 1018,
+    "T": 30540,
+    "n_reps": 10,
+    "alphas_grid": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "per_alpha": {
+      "0.05": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.11444251637543397,
+          "final_risk_std": 0.0002081988193518264,
+          "final_ar_mean": 0.3904125736738703,
+          "final_ar_std": 0.016695633713908253,
+          "max_risk_mean": 0.12570731865289086,
+          "max_risk_std": 0.004898500415785053,
+          "pathwise_violations": 10,
+          "pathwise_violation_rate": "10/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.1": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.11443964685564043,
+          "final_risk_std": 0.00013303816811965902,
+          "final_ar_mean": 0.4116175507531107,
+          "final_ar_std": 0.0007145085368427386,
+          "max_risk_mean": 0.12244553509243872,
+          "max_risk_std": 0.0036233074404824345,
+          "pathwise_violations": 10,
+          "pathwise_violation_rate": "10/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.15": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.1250597917258552,
+          "final_risk_std": 0.0007395967916280128,
+          "final_ar_mean": 0.4333955468238376,
+          "final_ar_std": 0.0015811934159639363,
+          "max_risk_mean": 0.13460320760180755,
+          "max_risk_std": 0.005408293712546095,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.2": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.1723861950024226,
+          "final_risk_std": 0.0010678835273190595,
+          "final_ar_mean": 0.5646234446627374,
+          "final_ar_std": 0.0016698254900491623,
+          "max_risk_mean": 0.17805252373060998,
+          "max_risk_std": 0.003762632914354911,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.08009409591401426,
+          "final_risk_std": 0.05243411598679924,
+          "final_ar_mean": 0.2839980353634578,
+          "final_ar_std": 0.1859204583145146,
+          "max_risk_mean": 0.0857324857062875,
+          "max_risk_std": 0.0562726505974913,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.25": {
+        "CRC": {
+          "final_risk_mean": 0.0914938538809364,
+          "final_risk_std": 0.04574735225844594,
+          "final_ar_mean": 0.3245841519318926,
+          "final_ar_std": 0.16229219884487003,
+          "max_risk_mean": 0.09744910695969349,
+          "max_risk_std": 0.04891966883945552,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.21246197956452723,
+          "final_risk_std": 0.0009865263959544875,
+          "final_ar_mean": 0.69475442043222,
+          "final_ar_std": 0.0022540488517794133,
+          "max_risk_mean": 0.22254813571220064,
+          "max_risk_std": 0.0072651342419129804,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.1452893849274725,
+          "final_risk_std": 0.038262806185716654,
+          "final_ar_mean": 0.503172888015717,
+          "final_ar_std": 0.11916875610073091,
+          "max_risk_mean": 0.15434612472741305,
+          "max_risk_std": 0.042976908388203124,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.3": {
+        "CRC": {
+          "final_risk_mean": 0.16860623917069412,
+          "final_risk_std": 0.03574876671216706,
+          "final_ar_mean": 0.5762049770792403,
+          "final_ar_std": 0.11145909858576232,
+          "max_risk_mean": 0.17749775354702918,
+          "max_risk_std": 0.039992274068633295,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.27750947565474093,
+          "final_risk_std": 0.0010869217176828338,
+          "final_ar_mean": 0.8757301899148657,
+          "final_ar_std": 0.0027869230929926424,
+          "max_risk_mean": 0.2832824411196355,
+          "max_risk_std": 0.005370294054986507,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.19185757666752493,
+          "final_risk_std": 0.0002882472592124448,
+          "final_ar_mean": 0.6492894564505567,
+          "final_ar_std": 0.00021323824695697303,
+          "max_risk_mean": 0.2003276828032537,
+          "max_risk_std": 0.007184926135473387,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      }
+    }
+  },
+  "pubmedqa": {
+    "benchmark": "pubmedqa",
+    "label": "PubMedQA",
+    "n_items": 800,
+    "T": 24000,
+    "n_reps": 10,
+    "alphas_grid": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "per_alpha": {
+      "0.1": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.1515594387278612,
+          "final_risk_std": 0.00014278179085569988,
+          "final_ar_mean": 0.6987875,
+          "final_ar_std": 0.007805301127723667,
+          "max_risk_mean": 0.1611390897117414,
+          "max_risk_std": 0.004568896710319048,
+          "pathwise_violations": 10,
+          "pathwise_violation_rate": "10/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.15": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.15387324438407168,
+          "final_risk_std": 0.0005463330537144934,
+          "final_ar_mean": 0.7135166666666667,
+          "final_ar_std": 0.0029001436746018726,
+          "max_risk_mean": 0.16325693966598587,
+          "max_risk_std": 0.006716001178836892,
+          "pathwise_violations": 10,
+          "pathwise_violation_rate": "10/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.2": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.18791011985015954,
+          "final_risk_std": 0.0010356215788407974,
+          "final_ar_mean": 0.8192291666666668,
+          "final_ar_std": 0.0023478159176846284,
+          "max_risk_mean": 0.19407692015154426,
+          "max_risk_std": 0.004042815791006241,
+          "pathwise_violations": 1,
+          "pathwise_violation_rate": "1/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.07577847081451757,
+          "final_risk_std": 0.07577847669016989,
+          "final_ar_mean": 0.34750416666666667,
+          "final_ar_std": 0.3475041883490599,
+          "max_risk_mean": 0.08153728248866206,
+          "max_risk_std": 0.08162173373579337,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.25": {
+        "CRC": {
+          "final_risk_mean": 0.13630936060955673,
+          "final_risk_std": 0.04543663170726588,
+          "final_ar_mean": 0.6256541666666667,
+          "final_ar_std": 0.20855149747890675,
+          "max_risk_mean": 0.14481620551527302,
+          "max_risk_std": 0.04848712113887652,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.22955821162297546,
+          "final_risk_std": 0.001100574188345075,
+          "final_ar_mean": 0.9674416666666665,
+          "final_ar_std": 0.0034786152257599316,
+          "max_risk_mean": 0.2358157872338603,
+          "max_risk_std": 0.0049709107558254095,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.17519943287767945,
+          "final_risk_std": 0.023919356607669928,
+          "final_ar_mean": 0.7815,
+          "final_ar_std": 0.08615847599691577,
+          "max_risk_mean": 0.18445318476228006,
+          "max_risk_std": 0.027078703472418055,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.3": {
+        "CRC": {
+          "final_risk_mean": 0.2175465699191567,
+          "final_risk_std": 0.01930517962027045,
+          "final_ar_mean": 0.9209958333333332,
+          "final_ar_std": 0.05355212754488221,
+          "max_risk_mean": 0.22702347808265352,
+          "max_risk_std": 0.025575661331846754,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.23846043679616277,
+          "final_risk_std": 0.0002692577266592974,
+          "final_ar_mean": 0.9972999999999999,
+          "final_ar_std": 0.00031721443851125467,
+          "max_risk_mean": 0.24674123827629546,
+          "max_risk_std": 0.006247276255028988,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.23220171330645284,
+          "final_risk_std": 0.012410932601920941,
+          "final_ar_mean": 0.9629374999999998,
+          "final_ar_std": 0.03318082952423983,
+          "max_risk_mean": 0.24141499911400013,
+          "max_risk_std": 0.017393904203728112,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.05": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.030374885710991027,
+          "final_risk_std": 0.06074978135656913,
+          "final_ar_mean": 0.13210416666666666,
+          "final_ar_std": 0.26507667604681434,
+          "max_risk_mean": 0.03373635382955771,
+          "max_risk_std": 0.06747339654031527,
+          "pathwise_violations": 2,
+          "pathwise_violation_rate": "2/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      }
+    }
+  },
+  "tatqa": {
+    "benchmark": "tatqa",
+    "label": "TAT-QA",
+    "n_items": 565,
+    "T": 16950,
+    "n_reps": 10,
+    "alphas_grid": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "per_alpha": {
+      "0.1": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.08253332293217616,
+          "final_risk_std": 0.000896274240977549,
+          "final_ar_mean": 0.46403539823008855,
+          "final_ar_std": 0.005691194407999683,
+          "max_risk_mean": 0.08760852935031674,
+          "max_risk_std": 0.0035458450284197836,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.15": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.08213029419322115,
+          "final_risk_std": 0.00015185343925977623,
+          "final_ar_mean": 0.514542772861357,
+          "final_ar_std": 0.0005278505344174375,
+          "max_risk_mean": 0.08639100425084695,
+          "max_risk_std": 0.0017856482775087997,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.08219309106269315,
+          "final_risk_std": 0.00018309665303641417,
+          "final_ar_mean": 0.5014454277286136,
+          "final_ar_std": 0.00018516052892596785,
+          "max_risk_mean": 0.08793705149711803,
+          "max_risk_std": 0.0025652290504920936,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.2": {
+        "CRC": {
+          "final_risk_mean": 0.08219309106269315,
+          "final_risk_std": 0.00018309665303641417,
+          "final_ar_mean": 0.5014454277286136,
+          "final_ar_std": 0.00018516052892596785,
+          "max_risk_mean": 0.08793705149711803,
+          "max_risk_std": 0.0025652290504920936,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.08742350154727252,
+          "final_risk_std": 0.0023214141781865445,
+          "final_ar_mean": 0.522448377581121,
+          "final_ar_std": 0.0032093798797164096,
+          "max_risk_mean": 0.09534438327297992,
+          "max_risk_std": 0.0037355877424373137,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.08219309106269315,
+          "final_risk_std": 0.00018309665303641417,
+          "final_ar_mean": 0.5014454277286136,
+          "final_ar_std": 0.00018516052892596785,
+          "max_risk_mean": 0.08793705149711803,
+          "max_risk_std": 0.0025652290504920936,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.25": {
+        "CRC": {
+          "final_risk_mean": 0.08219309106269315,
+          "final_risk_std": 0.00018309665303641417,
+          "final_ar_mean": 0.5014454277286136,
+          "final_ar_std": 0.00018516052892596785,
+          "max_risk_mean": 0.08793705149711803,
+          "max_risk_std": 0.0025652290504920936,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.18562911676903804,
+          "final_risk_std": 0.0028152108539725015,
+          "final_ar_mean": 0.7140235988200591,
+          "final_ar_std": 0.005892151506730669,
+          "max_risk_mean": 0.1980545777225124,
+          "max_risk_std": 0.005755693111091794,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.08219309106269315,
+          "final_risk_std": 0.00018309665303641417,
+          "final_ar_mean": 0.5014454277286136,
+          "final_ar_std": 0.00018516052892596785,
+          "max_risk_mean": 0.08793705149711803,
+          "max_risk_std": 0.0025652290504920936,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.3": {
+        "CRC": {
+          "final_risk_mean": 0.08219309106269315,
+          "final_risk_std": 0.00018309665303641417,
+          "final_ar_mean": 0.5014454277286136,
+          "final_ar_std": 0.00018516052892596785,
+          "max_risk_mean": 0.08793705149711803,
+          "max_risk_std": 0.0025652290504920936,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.25182596974973726,
+          "final_risk_std": 0.001152741859249095,
+          "final_ar_mean": 0.9708790560471977,
+          "final_ar_std": 0.0030820185483574868,
+          "max_risk_mean": 0.25777860652469486,
+          "max_risk_std": 0.003630988050615749,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.13456424222216498,
+          "final_risk_std": 0.0801669867327893,
+          "final_ar_mean": 0.642188790560472,
+          "final_ar_std": 0.2149311759088563,
+          "max_risk_mean": 0.14415744328821745,
+          "max_risk_std": 0.08692319337899941,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.05": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.07649135462969804,
+          "final_risk_std": 0.0019343070880057853,
+          "final_ar_mean": 0.2670678466076696,
+          "final_ar_std": 0.006493632475610939,
+          "max_risk_mean": 0.08031543533441811,
+          "max_risk_std": 0.0023423090630660948,
+          "pathwise_violations": 10,
+          "pathwise_violation_rate": "10/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      }
+    }
+  },
+  "mednli": {
+    "benchmark": "mednli",
+    "label": "MedNLI",
+    "n_items": 1138,
+    "T": 34140,
+    "n_reps": 10,
+    "alphas_grid": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "per_alpha": {
+      "0.1": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.1222803720193913,
+          "final_risk_std": 0.00020945965255229887,
+          "final_ar_mean": 0.732729935559461,
+          "final_ar_std": 0.002006057031249139,
+          "max_risk_mean": 0.13339893176304837,
+          "max_risk_std": 0.004354047847576991,
+          "pathwise_violations": 10,
+          "pathwise_violation_rate": "10/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.15": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.13765512916064573,
+          "final_risk_std": 0.0005509866179612777,
+          "final_ar_mean": 0.7779027533684827,
+          "final_ar_std": 0.0016238610047248953,
+          "max_risk_mean": 0.1494104464733464,
+          "max_risk_std": 0.0061349229641261506,
+          "pathwise_violations": 4,
+          "pathwise_violation_rate": "4/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.012228876659112983,
+          "final_risk_std": 0.036686629977338944,
+          "final_ar_mean": 0.07238429994141769,
+          "final_ar_std": 0.21715289982425307,
+          "max_risk_mean": 0.013926499032882012,
+          "max_risk_std": 0.041779497098646035,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.2": {
+        "CRC": {
+          "final_risk_mean": 0.04888087978722362,
+          "final_risk_std": 0.05986662142703702,
+          "final_ar_mean": 0.28947861745752784,
+          "final_ar_std": 0.35453748332630874,
+          "max_risk_mean": 0.05488066522629744,
+          "max_risk_std": 0.06733691261540241,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.18265922662922354,
+          "final_risk_std": 0.0007886925722460467,
+          "final_ar_mean": 0.924838898652607,
+          "final_ar_std": 0.001670725935343309,
+          "max_risk_mean": 0.19035694475324785,
+          "max_risk_std": 0.004945577671191266,
+          "pathwise_violations": 1,
+          "pathwise_violation_rate": "1/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.1351796076775104,
+          "final_risk_std": 0.020269003980340015,
+          "final_ar_mean": 0.7682220269478617,
+          "final_ar_std": 0.06782221906111931,
+          "max_risk_mean": 0.14728249298651935,
+          "max_risk_std": 0.027764522979941784,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.25": {
+        "CRC": {
+          "final_risk_mean": 0.1689431373343151,
+          "final_risk_std": 0.02163091675597332,
+          "final_ar_mean": 0.8797568834212068,
+          "final_ar_std": 0.06859748328258655,
+          "max_risk_mean": 0.18331006184877757,
+          "max_risk_std": 0.030752462120118184,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.20174709673443997,
+          "final_risk_std": 0.00045705124076781886,
+          "final_ar_mean": 0.9939513766842414,
+          "final_ar_std": 0.001029720512516138,
+          "max_risk_mean": 0.2131270154175949,
+          "max_risk_std": 0.008448132199782656,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.19555558608382312,
+          "final_risk_std": 0.014995546343107529,
+          "final_ar_mean": 0.9622934973637962,
+          "final_ar_std": 0.045262192294776855,
+          "max_risk_mean": 0.21149713932882266,
+          "max_risk_std": 0.022554199666945624,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.3": {
+        "CRC": {
+          "final_risk_mean": 0.20299043962751306,
+          "final_risk_std": 0.0005048229440752133,
+          "final_ar_mean": 0.9850058582308143,
+          "final_ar_std": 0.001045694200351488,
+          "max_risk_mean": 0.21945450861185495,
+          "max_risk_std": 0.009779382240432873,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.20300802527886694,
+          "final_risk_std": 6.803176727043774e-05,
+          "final_ar_mean": 0.9985002929115405,
+          "final_ar_std": 7.15088202444716e-05,
+          "max_risk_mean": 0.2150073915740331,
+          "max_risk_std": 0.009573564629094852,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.20309453032104638,
+          "final_risk_std": 0.0002269556717791487,
+          "final_ar_mean": 0.9853544229642649,
+          "final_ar_std": 1.1102230246251565e-16,
+          "max_risk_mean": 0.2195581694381515,
+          "max_risk_std": 0.009600460509380637,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.05": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.09924783347305813,
+          "final_risk_std": 0.04975825551883174,
+          "final_ar_mean": 0.39911833626244875,
+          "final_ar_std": 0.2641808136742835,
+          "max_risk_mean": 0.11737548826787662,
+          "max_risk_std": 0.06077058614628511,
+          "pathwise_violations": 8,
+          "pathwise_violation_rate": "8/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      }
+    }
+  },
+  "gsm8k": {
+    "benchmark": "gsm8k",
+    "label": "GSM8K",
+    "n_items": 1055,
+    "T": 31650,
+    "n_reps": 10,
+    "alphas_grid": [
+      0.01,
+      0.03,
+      0.05,
+      0.075,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "per_alpha": {
+      "0.01": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.030229495231246996,
+          "final_risk_std": 0.0009070101755390335,
+          "final_ar_mean": 0.8943791469194313,
+          "final_ar_std": 0.02400667361690576,
+          "max_risk_mean": 0.034104715403223754,
+          "max_risk_std": 0.00256098037794276,
+          "pathwise_violations": 10,
+          "pathwise_violation_rate": "10/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.03": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.03413988448685133,
+          "final_risk_std": 0.00037469583292826805,
+          "final_ar_mean": 0.9367519747235388,
+          "final_ar_std": 0.0025084102176806773,
+          "max_risk_mean": 0.03985738654382896,
+          "max_risk_std": 0.0034364181174960373,
+          "pathwise_violations": 10,
+          "pathwise_violation_rate": "10/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.05": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.043527314164993905,
+          "final_risk_std": 0.00041775321832945194,
+          "final_ar_mean": 0.9758641390205371,
+          "final_ar_std": 0.0015407144860608729,
+          "max_risk_mean": 0.0475588060798798,
+          "max_risk_std": 0.002415472032442908,
+          "pathwise_violations": 1,
+          "pathwise_violation_rate": "1/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.002912791717845236,
+          "final_risk_std": 0.008738375153535706,
+          "final_ar_mean": 0.09003159557661927,
+          "final_ar_std": 0.2700947867298578,
+          "max_risk_mean": 0.0036679536679536683,
+          "max_risk_std": 0.011003861003861004,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.075": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.04958524611490393,
+          "final_risk_std": 0.00025443180001978946,
+          "final_ar_mean": 0.9966382306477094,
+          "final_ar_std": 0.0004297927601423547,
+          "max_risk_mean": 0.055378602087090466,
+          "max_risk_std": 0.0034434127597210494,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.03739549441024938,
+          "final_risk_std": 0.005630359025502115,
+          "final_ar_mean": 0.9485023696682464,
+          "final_ar_std": 0.025357301414266047,
+          "max_risk_mean": 0.040735886526459236,
+          "max_risk_std": 0.008118381752297498,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.1": {
+        "CRC": {
+          "final_risk_mean": 0.002912791717845236,
+          "final_risk_std": 0.008738375153535706,
+          "final_ar_mean": 0.09003159557661927,
+          "final_ar_std": 0.2700947867298578,
+          "max_risk_mean": 0.0036679536679536683,
+          "max_risk_std": 0.011003861003861004,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.05019779072906318,
+          "final_risk_std": 3.639907162973211e-05,
+          "final_ar_mean": 0.998388625592417,
+          "final_ar_std": 3.4611220063489585e-05,
+          "max_risk_mean": 0.05598624461410194,
+          "max_risk_std": 0.003243213179519815,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.048979679114694516,
+          "final_risk_std": 0.003740996931861881,
+          "final_ar_mean": 0.9815102685624012,
+          "final_ar_std": 0.008075829383886247,
+          "max_risk_mean": 0.05266779892782668,
+          "max_risk_std": 0.005675724989868927,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.15": {
+        "CRC": {
+          "final_risk_mean": 0.05019903691813804,
+          "final_risk_std": 0.00010357795059326844,
+          "final_ar_mean": 0.9842022116903634,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.05388580180282049,
+          "max_risk_std": 0.0031575096709000683,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.05021518987341772,
+          "final_risk_std": 3.4083321564142974e-05,
+          "final_ar_mean": 0.9984202211690363,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.05598315812710512,
+          "max_risk_std": 0.003247744225096389,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.05019903691813804,
+          "final_risk_std": 0.00010357795059326844,
+          "final_ar_mean": 0.9842022116903634,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.05388580180282049,
+          "max_risk_std": 0.0031575096709000683,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.2": {
+        "CRC": {
+          "final_risk_mean": 0.05019903691813804,
+          "final_risk_std": 0.00010357795059326844,
+          "final_ar_mean": 0.9842022116903634,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.05388580180282049,
+          "max_risk_std": 0.0031575096709000683,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.05021518987341772,
+          "final_risk_std": 3.4083321564142974e-05,
+          "final_ar_mean": 0.9984202211690363,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.05598315812710512,
+          "max_risk_std": 0.003247744225096389,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.05019903691813804,
+          "final_risk_std": 0.00010357795059326844,
+          "final_ar_mean": 0.9842022116903634,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.05388580180282049,
+          "max_risk_std": 0.0031575096709000683,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.3": {
+        "CRC": {
+          "final_risk_mean": 0.05019903691813804,
+          "final_risk_std": 0.00010357795059326844,
+          "final_ar_mean": 0.9842022116903634,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.05388580180282049,
+          "max_risk_std": 0.0031575096709000683,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.05021518987341772,
+          "final_risk_std": 3.4083321564142974e-05,
+          "final_ar_mean": 0.9984202211690363,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.05598315812710512,
+          "max_risk_std": 0.003247744225096389,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.05019903691813804,
+          "final_risk_std": 0.00010357795059326844,
+          "final_ar_mean": 0.9842022116903634,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.05388580180282049,
+          "max_risk_std": 0.0031575096709000683,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.25": {
+        "CRC": {
+          "final_risk_mean": 0.05019903691813804,
+          "final_risk_std": 0.00010357795059326844,
+          "final_ar_mean": 0.9842022116903634,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.05388580180282049,
+          "max_risk_std": 0.0031575096709000683,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.05021518987341772,
+          "final_risk_std": 3.4083321564142974e-05,
+          "final_ar_mean": 0.9984202211690363,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.05598315812710512,
+          "max_risk_std": 0.003247744225096389,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.05019903691813804,
+          "final_risk_std": 0.00010357795059326844,
+          "final_ar_mean": 0.9842022116903634,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.05388580180282049,
+          "max_risk_std": 0.0031575096709000683,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      }
+    }
+  },
+  "headqa": {
+    "benchmark": "headqa",
+    "label": "HEAD-QA",
+    "n_items": 1100,
+    "T": 33000,
+    "n_reps": 10,
+    "alphas_grid": [
+      0.05,
+      0.075,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "per_alpha": {
+      "0.05": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.075": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.11436360227701962,
+          "final_risk_std": 0.07490785030966965,
+          "final_ar_mean": 0.31679090909090907,
+          "final_ar_std": 0.262654978152346,
+          "max_risk_mean": 0.1251830954641311,
+          "max_risk_std": 0.08210789672872876,
+          "pathwise_violations": 7,
+          "pathwise_violation_rate": "7/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.1": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.16191826565495945,
+          "final_risk_std": 9.57397838571869e-05,
+          "final_ar_mean": 0.6818666666666666,
+          "final_ar_std": 0.03549877376016904,
+          "max_risk_mean": 0.1754006561583949,
+          "max_risk_std": 0.004244259700486039,
+          "pathwise_violations": 10,
+          "pathwise_violation_rate": "10/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.15": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.16238943984700754,
+          "final_risk_std": 0.00022621323230294547,
+          "final_ar_mean": 0.712709090909091,
+          "final_ar_std": 0.0015743116909543277,
+          "max_risk_mean": 0.17577580679134466,
+          "max_risk_std": 0.006905334624937516,
+          "pathwise_violations": 10,
+          "pathwise_violation_rate": "10/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.2": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.18130689370765782,
+          "final_risk_std": 0.0007799296888517255,
+          "final_ar_mean": 0.7565060606060606,
+          "final_ar_std": 0.0015591225664542126,
+          "max_risk_mean": 0.18913250778149138,
+          "max_risk_std": 0.004156567427633803,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.3": {
+        "CRC": {
+          "final_risk_mean": 0.1788274908598379,
+          "final_risk_std": 0.02630907058266066,
+          "final_ar_mean": 0.7471393939393939,
+          "final_ar_std": 0.06772853934142026,
+          "max_risk_mean": 0.18711491040286507,
+          "max_risk_std": 0.031048745994568257,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.24864721639512952,
+          "final_risk_std": 0.0002358554133544889,
+          "final_ar_mean": 0.9605060606060606,
+          "final_ar_std": 0.0007805074754234654,
+          "max_risk_mean": 0.2607852971205209,
+          "max_risk_std": 0.004708335446513794,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.2193116820108607,
+          "final_risk_std": 0.022935711646560428,
+          "final_ar_mean": 0.8561636363636363,
+          "final_ar_std": 0.06504690149376367,
+          "max_risk_mean": 0.2279193995925724,
+          "max_risk_std": 0.02805888054491515,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.25": {
+        "CRC": {
+          "final_risk_mean": 0.0809020670777444,
+          "final_risk_std": 0.08090207582809789,
+          "final_ar_mean": 0.35137878787878785,
+          "final_ar_std": 0.35137881479623,
+          "max_risk_mean": 0.08570831521896789,
+          "max_risk_std": 0.08576790153969659,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.23020500655513038,
+          "final_risk_std": 0.0009471671370988796,
+          "final_ar_mean": 0.8944939393939395,
+          "final_ar_std": 0.0018496295511761475,
+          "max_risk_mean": 0.23591920173113054,
+          "max_risk_std": 0.004662473891281517,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.16166279538477837,
+          "final_risk_std": 0.00016492947444233597,
+          "final_ar_mean": 0.702790909090909,
+          "final_ar_std": 0.00022613858432490343,
+          "max_risk_mean": 0.16800339580011356,
+          "max_risk_std": 0.004872606815366936,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      }
+    }
+  },
+  "arc": {
+    "benchmark": "arc",
+    "label": "ARC",
+    "n_items": 938,
+    "T": 28140,
+    "n_reps": 10,
+    "alphas_grid": [
+      0.05,
+      0.075,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "per_alpha": {
+      "0.05": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.08070306660727193,
+          "final_risk_std": 0.0005388893528987026,
+          "final_ar_mean": 0.9399289267945983,
+          "final_ar_std": 0.006187150115405753,
+          "max_risk_mean": 0.08727532757708006,
+          "max_risk_std": 0.002983471441912663,
+          "pathwise_violations": 10,
+          "pathwise_violation_rate": "10/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.075": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.08385803762025439,
+          "final_risk_std": 0.00032127933992987494,
+          "final_ar_mean": 0.9529744136460554,
+          "final_ar_std": 0.001752934559103475,
+          "max_risk_mean": 0.09039146865073096,
+          "max_risk_std": 0.00291903592420847,
+          "pathwise_violations": 10,
+          "pathwise_violation_rate": "10/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.1": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.09272418193404915,
+          "final_risk_std": 0.0003204582537289846,
+          "final_ar_mean": 0.9777078891257996,
+          "final_ar_std": 0.0009901966827899217,
+          "max_risk_mean": 0.09791366847076191,
+          "max_risk_std": 0.0022584436486175557,
+          "pathwise_violations": 2,
+          "pathwise_violation_rate": "2/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.15": {
+        "CRC": {
+          "final_risk_mean": 0.04857499146813633,
+          "final_risk_std": 0.03975933795583282,
+          "final_ar_mean": 0.5591719971570718,
+          "final_ar_std": 0.45667936882197024,
+          "max_risk_mean": 0.054915238889668816,
+          "max_risk_std": 0.04500535067722638,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.10010824440675618,
+          "final_risk_std": 0.00010401343223653394,
+          "final_ar_mean": 0.9979246624022744,
+          "final_ar_std": 0.00016222760782535326,
+          "max_risk_mean": 0.1070047795239607,
+          "max_risk_std": 0.003140513569077797,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.10027858176555718,
+          "final_risk_std": 8.569261419918278e-05,
+          "final_ar_mean": 0.9822316986496092,
+          "final_ar_std": 1.1102230246251565e-16,
+          "max_risk_mean": 0.10996976140592858,
+          "max_risk_std": 0.0051058660843597194,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.2": {
+        "CRC": {
+          "final_risk_mean": 0.10027858176555718,
+          "final_risk_std": 8.569261419918278e-05,
+          "final_ar_mean": 0.9822316986496092,
+          "final_ar_std": 1.1102230246251565e-16,
+          "max_risk_mean": 0.10996976140592858,
+          "max_risk_std": 0.0051058660843597194,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.10022783908864363,
+          "final_risk_std": 6.792019946008904e-05,
+          "final_ar_mean": 0.998223169864961,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.10711805799246699,
+          "max_risk_std": 0.003119967848020438,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.10027858176555718,
+          "final_risk_std": 8.569261419918278e-05,
+          "final_ar_mean": 0.9822316986496092,
+          "final_ar_std": 1.1102230246251565e-16,
+          "max_risk_mean": 0.10996976140592858,
+          "max_risk_std": 0.0051058660843597194,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.3": {
+        "CRC": {
+          "final_risk_mean": 0.10027858176555718,
+          "final_risk_std": 8.569261419918278e-05,
+          "final_ar_mean": 0.9822316986496092,
+          "final_ar_std": 1.1102230246251565e-16,
+          "max_risk_mean": 0.10996976140592858,
+          "max_risk_std": 0.0051058660843597194,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.10022783908864363,
+          "final_risk_std": 6.792019946008904e-05,
+          "final_ar_mean": 0.998223169864961,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.10711805799246699,
+          "max_risk_std": 0.003119967848020438,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.10027858176555718,
+          "final_risk_std": 8.569261419918278e-05,
+          "final_ar_mean": 0.9822316986496092,
+          "final_ar_std": 1.1102230246251565e-16,
+          "max_risk_mean": 0.10996976140592858,
+          "max_risk_std": 0.0051058660843597194,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.25": {
+        "CRC": {
+          "final_risk_mean": 0.10027858176555718,
+          "final_risk_std": 8.569261419918278e-05,
+          "final_ar_mean": 0.9822316986496092,
+          "final_ar_std": 1.1102230246251565e-16,
+          "max_risk_mean": 0.10996976140592858,
+          "max_risk_std": 0.0051058660843597194,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.10022783908864363,
+          "final_risk_std": 6.792019946008904e-05,
+          "final_ar_mean": 0.998223169864961,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.10711805799246699,
+          "max_risk_std": 0.003119967848020438,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.10027858176555718,
+          "final_risk_std": 8.569261419918278e-05,
+          "final_ar_mean": 0.9822316986496092,
+          "final_ar_std": 1.1102230246251565e-16,
+          "max_risk_mean": 0.10996976140592858,
+          "max_risk_std": 0.0051058660843597194,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      }
+    }
+  },
+  "casehold": {
+    "benchmark": "casehold",
+    "label": "CaseHOLD",
+    "n_items": 2880,
+    "T": 86400,
+    "n_reps": 10,
+    "alphas_grid": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "per_alpha": {
+      "0.15": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.15599131029887064,
+          "final_risk_std": 0.0011943863986682303,
+          "final_ar_mean": 0.2747268518518518,
+          "final_ar_std": 0.0016999726405851315,
+          "max_risk_mean": 0.17864013881908994,
+          "max_risk_std": 0.03474598606962863,
+          "pathwise_violations": 10,
+          "pathwise_violation_rate": "10/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.2": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.18644321270085176,
+          "final_risk_std": 0.0003801493480748204,
+          "final_ar_mean": 0.37963888888888886,
+          "final_ar_std": 0.0013702530605444476,
+          "max_risk_mean": 0.20162492006024926,
+          "max_risk_std": 0.013110532083566223,
+          "pathwise_violations": 3,
+          "pathwise_violation_rate": "3/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.25": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.2236492141610976,
+          "final_risk_std": 0.0005782609734297779,
+          "final_ar_mean": 0.5383171296296296,
+          "final_ar_std": 0.0014498781197298547,
+          "max_risk_mean": 0.23333871145083443,
+          "max_risk_std": 0.0055480505528337646,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.1129134452202009,
+          "final_risk_std": 0.07733115761735014,
+          "final_ar_mean": 0.22560879629629632,
+          "final_ar_std": 0.17827166993555596,
+          "max_risk_mean": 0.12053638139843015,
+          "max_risk_std": 0.08229721164132058,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.3": {
+        "CRC": {
+          "final_risk_mean": 0.14702276968715516,
+          "final_risk_std": 0.08429994623702641,
+          "final_ar_mean": 0.3314097222222222,
+          "final_ar_std": 0.23642396483204703,
+          "max_risk_mean": 0.15792199929435077,
+          "max_risk_std": 0.08984436918283104,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.2757332631983861,
+          "final_risk_std": 0.000539064079335877,
+          "final_ar_mean": 0.7378599537037037,
+          "final_ar_std": 0.001428762604250194,
+          "max_risk_mean": 0.28348764207499844,
+          "max_risk_std": 0.005985293576424455,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.18535950515724062,
+          "final_risk_std": 0.06907641860684012,
+          "final_ar_mean": 0.46173495370370377,
+          "final_ar_std": 0.19662877116798283,
+          "max_risk_mean": 0.20083573705800006,
+          "max_risk_std": 0.07521967000537201,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.05": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.14408777258916367,
+          "final_risk_std": 0.00012578343377412849,
+          "final_ar_mean": 0.24384722222222224,
+          "final_ar_std": 0.005632670809897818,
+          "max_risk_mean": 0.15470576124222848,
+          "max_risk_std": 0.006185299619864629,
+          "pathwise_violations": 10,
+          "pathwise_violation_rate": "10/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      },
+      "0.1": {
+        "CRC": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        },
+        "NEX-Conf": {
+          "final_risk_mean": 0.1447220687775397,
+          "final_risk_std": 0.0005278088080681883,
+          "final_ar_mean": 0.24891550925925926,
+          "final_ar_std": 0.0015112040306228564,
+          "max_risk_mean": 0.15398645853317167,
+          "max_risk_std": 0.006226590331461172,
+          "pathwise_violations": 10,
+          "pathwise_violation_rate": "10/10",
+          "n_reps": 10
+        },
+        "Mohri-Conf": {
+          "final_risk_mean": 0.0,
+          "final_risk_std": 0.0,
+          "final_ar_mean": 0.0,
+          "final_ar_std": 0.0,
+          "max_risk_mean": 0.0,
+          "max_risk_std": 0.0,
+          "pathwise_violations": 0,
+          "pathwise_violation_rate": "0/10",
+          "n_reps": 10
+        }
+      }
+    }
+  }
+}

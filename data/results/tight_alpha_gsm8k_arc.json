@@ -1,0 +1,196 @@
+{
+  "gsm8k": {
+    "0.01": {
+      "LTT": {
+        "alpha": 0.01,
+        "final_risk_mean": 0.0,
+        "final_ar_mean": 0.0,
+        "max_risk_mean": 0.0,
+        "pathwise_violations": 0,
+        "pathwise_violation_rate": "0/10",
+        "n_reps": 10
+      },
+      "CRC": {
+        "alpha": 0.01,
+        "final_risk_mean": 0.0,
+        "final_ar_mean": 0.0,
+        "max_risk_mean": 0.0,
+        "pathwise_violations": 0,
+        "pathwise_violation_rate": "0/10",
+        "n_reps": 10
+      },
+      "NEX-Conf": {
+        "alpha": 0.01,
+        "final_risk_mean": 0.030229495231246996,
+        "final_ar_mean": 0.8943791469194313,
+        "max_risk_mean": 0.034104715403223754,
+        "pathwise_violations": 10,
+        "pathwise_violation_rate": "10/10",
+        "n_reps": 10
+      },
+      "Mohri-Conf": {
+        "alpha": 0.01,
+        "final_risk_mean": 0.0,
+        "final_ar_mean": 0.0,
+        "max_risk_mean": 0.0,
+        "pathwise_violations": 0,
+        "pathwise_violation_rate": "0/10",
+        "n_reps": 10
+      }
+    },
+    "0.03": {
+      "LTT": {
+        "alpha": 0.03,
+        "final_risk_mean": 0.0,
+        "final_ar_mean": 0.0,
+        "max_risk_mean": 0.0,
+        "pathwise_violations": 0,
+        "pathwise_violation_rate": "0/10",
+        "n_reps": 10
+      },
+      "CRC": {
+        "alpha": 0.03,
+        "final_risk_mean": 0.0,
+        "final_ar_mean": 0.0,
+        "max_risk_mean": 0.0,
+        "pathwise_violations": 0,
+        "pathwise_violation_rate": "0/10",
+        "n_reps": 10
+      },
+      "NEX-Conf": {
+        "alpha": 0.03,
+        "final_risk_mean": 0.03413988448685133,
+        "final_ar_mean": 0.9367519747235388,
+        "max_risk_mean": 0.03985738654382896,
+        "pathwise_violations": 10,
+        "pathwise_violation_rate": "10/10",
+        "n_reps": 10
+      },
+      "Mohri-Conf": {
+        "alpha": 0.03,
+        "final_risk_mean": 0.0,
+        "final_ar_mean": 0.0,
+        "max_risk_mean": 0.0,
+        "pathwise_violations": 0,
+        "pathwise_violation_rate": "0/10",
+        "n_reps": 10
+      }
+    },
+    "0.075": {
+      "LTT": {
+        "alpha": 0.075,
+        "final_risk_mean": 0.03182984524683275,
+        "final_ar_mean": 0.8413680884676145,
+        "max_risk_mean": 0.03510738917059171,
+        "pathwise_violations": 0,
+        "pathwise_violation_rate": "0/10",
+        "n_reps": 10
+      },
+      "CRC": {
+        "alpha": 0.075,
+        "final_risk_mean": 0.0,
+        "final_ar_mean": 0.0,
+        "max_risk_mean": 0.0,
+        "pathwise_violations": 0,
+        "pathwise_violation_rate": "0/10",
+        "n_reps": 10
+      },
+      "NEX-Conf": {
+        "alpha": 0.075,
+        "final_risk_mean": 0.04958524611490393,
+        "final_ar_mean": 0.9966382306477094,
+        "max_risk_mean": 0.055378602087090466,
+        "pathwise_violations": 0,
+        "pathwise_violation_rate": "0/10",
+        "n_reps": 10
+      },
+      "Mohri-Conf": {
+        "alpha": 0.075,
+        "final_risk_mean": 0.03739549441024938,
+        "final_ar_mean": 0.9485023696682464,
+        "max_risk_mean": 0.040735886526459236,
+        "pathwise_violations": 0,
+        "pathwise_violation_rate": "0/10",
+        "n_reps": 10
+      }
+    }
+  },
+  "arc": {
+    "0.05": {
+      "LTT": {
+        "alpha": 0.05,
+        "final_risk_mean": 0.0,
+        "final_ar_mean": 0.0,
+        "max_risk_mean": 0.0,
+        "pathwise_violations": 0,
+        "pathwise_violation_rate": "0/10",
+        "n_reps": 10
+      },
+      "CRC": {
+        "alpha": 0.05,
+        "final_risk_mean": 0.0,
+        "final_ar_mean": 0.0,
+        "max_risk_mean": 0.0,
+        "pathwise_violations": 0,
+        "pathwise_violation_rate": "0/10",
+        "n_reps": 10
+      },
+      "NEX-Conf": {
+        "alpha": 0.05,
+        "final_risk_mean": 0.08070306660727193,
+        "final_ar_mean": 0.9399289267945983,
+        "max_risk_mean": 0.08727532757708006,
+        "pathwise_violations": 10,
+        "pathwise_violation_rate": "10/10",
+        "n_reps": 10
+      },
+      "Mohri-Conf": {
+        "alpha": 0.05,
+        "final_risk_mean": 0.0,
+        "final_ar_mean": 0.0,
+        "max_risk_mean": 0.0,
+        "pathwise_violations": 0,
+        "pathwise_violation_rate": "0/10",
+        "n_reps": 10
+      }
+    },
+    "0.075": {
+      "LTT": {
+        "alpha": 0.075,
+        "final_risk_mean": 0.0,
+        "final_ar_mean": 0.0,
+        "max_risk_mean": 0.0,
+        "pathwise_violations": 0,
+        "pathwise_violation_rate": "0/10",
+        "n_reps": 10
+      },
+      "CRC": {
+        "alpha": 0.075,
+        "final_risk_mean": 0.0,
+        "final_ar_mean": 0.0,
+        "max_risk_mean": 0.0,
+        "pathwise_violations": 0,
+        "pathwise_violation_rate": "0/10",
+        "n_reps": 10
+      },
+      "NEX-Conf": {
+        "alpha": 0.075,
+        "final_risk_mean": 0.08385803762025439,
+        "final_ar_mean": 0.9529744136460554,
+        "max_risk_mean": 0.09039146865073096,
+        "pathwise_violations": 10,
+        "pathwise_violation_rate": "10/10",
+        "n_reps": 10
+      },
+      "Mohri-Conf": {
+        "alpha": 0.075,
+        "final_risk_mean": 0.0,
+        "final_ar_mean": 0.0,
+        "max_risk_mean": 0.0,
+        "pathwise_violations": 0,
+        "pathwise_violation_rate": "0/10",
+        "n_reps": 10
+      }
+    }
+  }
+}
