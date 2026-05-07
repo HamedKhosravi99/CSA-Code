@@ -31,16 +31,6 @@ across four base models in three architecture families, CSA is the only
 method among the ten directly compared that satisfies both pathwise validity
 and non-refusing deployment on every cell.
 
-## Architecture
-
-![CSA architecture](figures/csa_architecture.png)
-
-CSA sits as a per-round wrapper between the policy and the deployment
-decision: at every round it ingests the policy's output, the verifier's
-binary signal V<sub>t</sub>, and the surrogate score s<sub>t</sub>; updates
-the per-threshold e-processes; and either *acts* on the most permissive
-certified threshold or *abstains* if no threshold is yet certified.
-
 ## Repository layout
 
 ```
