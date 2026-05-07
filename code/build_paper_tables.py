@@ -22,7 +22,7 @@ import os
 import sys
 from glob import glob
 
-RES = 'results'
+RES = 'data/results'
 OUT = 'paper_tables'
 os.makedirs(OUT, exist_ok=True)
 
@@ -72,7 +72,7 @@ def load_main_pipeline():
 
 
 def load_new_baselines():
-    with open(f'{RES}/new_baselines_summary.json') as f:
+    with open(f'{RES}/baselines/new_baselines_summary.json') as f:
         data = json.load(f)
     out = {b: {} for b in BENCHES}
     for b in BENCHES:
@@ -103,7 +103,7 @@ def load_new_baselines():
 
 def load_ltt_pivots():
     """Pull LTT numbers from run_ltt_pivots.py output."""
-    path = f'{RES}/ltt_pivotal_summary.json'
+    path = f'{RES}/ltt/ltt_pivotal_summary.json'
     if not os.path.exists(path):
         return {}
     with open(path) as f:
@@ -147,7 +147,7 @@ def merge(main, new, ltt_pivots=None):
 def load_shift_gsm8k_hard():
     """GSM8K alpha=0.05 adversarial shifts: quartile, multi, adversarial,
     window_outrun. Returns {scenario: {method: cell}}."""
-    path = f'{RES}/ablation_shift_hard_gsm8k_alpha0.05.json'
+    path = f'{RES}/shift/ablation_shift_hard_gsm8k_alpha0.05.json'
     if not os.path.exists(path):
         return {}
     with open(path) as f:
@@ -231,7 +231,7 @@ def load_shift_lowalpha():
     The file has 3 alphas x 4 scenarios = 12 cells, each with 10 methods.
     Returns {(alpha, scenario): {method: cell}}.
     """
-    path = f'{RES}/ablation_shift_lowalpha.json'
+    path = f'{RES}/shift/ablation_shift_lowalpha.json'
     if not os.path.exists(path):
         return {}
     with open(path) as f:
@@ -272,7 +272,7 @@ def load_deepseek():
                     'prec': float(cell.get('precision_mean', 0)),
                     'pv':   cell.get('pathwise_violation_rate', '?'),
                 }
-    nb_path = f'{RES}/deepseek_new_baselines_summary.json'
+    nb_path = f'{RES}/baselines/deepseek_new_baselines_summary.json'
     if os.path.exists(nb_path):
         with open(nb_path) as f:
             nb = json.load(f)

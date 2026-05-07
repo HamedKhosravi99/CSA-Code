@@ -16,7 +16,7 @@ import matplotlib.patches as mpatches
 
 os.makedirs('figures', exist_ok=True)
 
-with open('paper_tables/_verified_numbers.json') as f:
+with open('data/results/_verified_numbers.json') as f:
     V = json.load(f)
 
 BENCH = ['medical', 'pubmedqa', 'tatqa', 'mednli',
@@ -469,7 +469,13 @@ print('  figures/scoreboard_tile.{pdf,png}')
 # from the REAL mean_risk_curve field in the JSON
 # =========================================================
 
-traj_src = json.load(open('results/casehold/casehold_alpha0.25.json'))
+_traj_path = 'data/results/casehold/casehold_alpha0.25.json'
+if not os.path.exists(_traj_path):
+    print(f'  [skipped] figures/trajectory.{{pdf,png}}: '
+          f'{_traj_path} not present in this release; regenerate by '
+          f'running the casehold experiment scripts.')
+    raise SystemExit(0)
+traj_src = json.load(open(_traj_path))
 T = traj_src['T']
 alpha_line = traj_src['alpha']
 fig, ax = plt.subplots(figsize=(10.5, 5.5))

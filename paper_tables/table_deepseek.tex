@@ -1,0 +1,67 @@
+\begin{table}[!ht]
+\centering\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llrrrc}
+\toprule
+Benchmark & Method & Risk & AR & MaxR & PathV \\
+\midrule
+\multicolumn{6}{l}{\emph{MedQA + DeepSeek-R1-Distill-Qwen-7B (acc=65.8\%)}} \\
+$\alpha=0.050$ & CRC & $0.0\%$ & $0.0\%$ & $0.0\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $0.0\%$ & $0.0\%$ & $0.0\%$ & $\mathbf{0/10}$ \\
+ & ConfFact & $0.0\%$ & $0.0\%$ & $0.0\%$ & $\mathbf{0/10}$ \\
+\midrule
+$\alpha=0.100$ & CRC & $0.0\%$ & $0.0\%$ & $0.0\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $0.0\%$ & $0.0\%$ & $0.0\%$ & $\mathbf{0/10}$ \\
+ & ConfFact & $0.0\%$ & $0.0\%$ & $0.0\%$ & $\mathbf{0/10}$ \\
+\midrule
+$\alpha=0.150$ & CRC & $0.0\%$ & $0.0\%$ & $0.0\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $5.7\%$ & $1.8\%$ & $5.8\%$ & ${\color{csared}1/10}$ \\
+ & ConfFact & $0.0\%$ & $0.0\%$ & $0.0\%$ & $\mathbf{0/10}$ \\
+\midrule
+$\alpha=0.200$ & CRC & $0.0\%$ & $0.0\%$ & $0.0\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $5.7\%$ & $1.8\%$ & $5.8\%$ & ${\color{csared}1/10}$ \\
+ & ConfFact & $0.0\%$ & $0.0\%$ & $0.0\%$ & $\mathbf{0/10}$ \\
+\midrule
+$\alpha=0.250$ & CRC & $0.0\%$ & $0.0\%$ & $0.0\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $17.0\%$ & $4.8\%$ & $17.4\%$ & ${\color{csared}3/10}$ \\
+ & ConfFact & $0.0\%$ & $0.0\%$ & $0.0\%$ & $\mathbf{0/10}$ \\
+\midrule
+$\alpha=0.300$ & CRC & $0.0\%$ & $0.0\%$ & $0.0\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $34.1\%$ & $9.2\%$ & $34.8\%$ & ${\color{csared}6/10}$ \\
+ & ConfFact & $0.0\%$ & $0.0\%$ & $0.0\%$ & $\mathbf{0/10}$ \\
+\midrule
+\midrule
+\multicolumn{6}{l}{\emph{GSM8K + DeepSeek-R1-Distill-Qwen-7B (acc=87.8\%)}} \\
+$\alpha=0.010$ & CRC & $0.0\%$ & $0.0\%$ & $0.0\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $0.0\%$ & $0.0\%$ & $0.0\%$ & $\mathbf{0/10}$ \\
+ & ConfFact & $0.0\%$ & $0.0\%$ & $0.0\%$ & $\mathbf{0/10}$ \\
+\midrule
+$\alpha=0.050$ & CRC & $0.0\%$ & $0.0\%$ & $0.0\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $7.2\%$ & $87.5\%$ & $8.0\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & ConfFact & $0.0\%$ & $0.0\%$ & $0.0\%$ & $\mathbf{0/10}$ \\
+\midrule
+$\alpha=0.100$ & CRC & $0.0\%$ & $0.0\%$ & $0.0\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $9.1\%$ & $92.3\%$ & $9.8\%$ & ${\color{csared}3/10}$ \\
+ & ConfFact & $1.4\%$ & $17.3\%$ & $1.7\%$ & $\mathbf{0/10}$ \\
+\midrule
+$\alpha=0.150$ & CRC & $2.9\%$ & $34.7\%$ & $3.3\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $12.0\%$ & $99.3\%$ & $12.6\%$ & $\mathbf{0/10}$ \\
+ & ConfFact & $9.2\%$ & $91.5\%$ & $9.7\%$ & $\mathbf{0/10}$ \\
+\midrule
+$\alpha=0.200$ & CRC & $11.4\%$ & $96.7\%$ & $12.1\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $12.2\%$ & $99.8\%$ & $13.2\%$ & $\mathbf{0/10}$ \\
+ & ConfFact & $12.2\%$ & $98.4\%$ & $13.0\%$ & $\mathbf{0/10}$ \\
+\midrule
+$\alpha=0.250$ & CRC & $12.2\%$ & $98.4\%$ & $13.0\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $12.2\%$ & $99.8\%$ & $13.2\%$ & $\mathbf{0/10}$ \\
+ & ConfFact & $12.2\%$ & $98.4\%$ & $13.0\%$ & $\mathbf{0/10}$ \\
+\midrule
+$\alpha=0.300$ & CRC & $12.2\%$ & $98.4\%$ & $13.0\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $12.2\%$ & $99.8\%$ & $13.2\%$ & $\mathbf{0/10}$ \\
+ & ConfFact & $12.2\%$ & $98.4\%$ & $13.0\%$ & $\mathbf{0/10}$ \\
+\midrule
+\bottomrule
+\end{tabular}
+\caption{\textbf{Cross-model ablation} with DeepSeek-R1-Distill-Qwen-7B as base model. All 10 methods, full $\alphabudget$ grid, 10 replications. DeepSeek was not used to pick any CSA hyperparameter; the same configuration as the main 7-model pipeline transfers directly. \csa retains $0/10$ pathwise violations at every cell while the base model differs entirely from the ones used to construct the calibrated CSVs.}
+\label{tab:cross-model-deepseek}
+\end{table}

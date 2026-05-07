@@ -1,0 +1,24 @@
+\begin{table}[!ht]
+\centering\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrcrrcrrcrrcrrcrrc}
+\toprule
+ & \multicolumn{3}{c}{$\alphabudget=0.05$} & \multicolumn{3}{c}{$\alphabudget=0.10$} & \multicolumn{3}{c}{$\alphabudget=0.15$} & \multicolumn{3}{c}{$\alphabudget=0.20$} & \multicolumn{3}{c}{$\alphabudget=0.25$} & \multicolumn{3}{c}{$\alphabudget=0.30$} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}\cmidrule(lr){11-13}\cmidrule(lr){14-16}\cmidrule(lr){17-19}
+Method & Risk & AR & PathV & Risk & AR & PathV & Risk & AR & PathV & Risk & AR & PathV & Risk & AR & PathV & Risk & AR & PathV \\
+\midrule
+\csa & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- \\
+Always-Act & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- \\
+Fixed-Threshold & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- \\
+Naive-Tuning & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- \\
+ACI & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- \\
+SAOCP & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- \\
+LTT & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & $0.0\%$ & $\mathbf{0/10}$ & -- & -- & -- & -- & -- & -- \\
+CRC & -- & $0.0\%$ & $\mathbf{0/10}$ & -- & $0.0\%$ & $\mathbf{0/10}$ & -- & $0.0\%$ & $\mathbf{0/10}$ & -- & $0.0\%$ & $\mathbf{0/10}$ & $8.1\%$ & $35.1\%$ & $\mathbf{0/10}$ & $17.9\%$ & $74.7\%$ & $\mathbf{0/10}$ \\
+NEX-Conf & -- & $0.0\%$ & $\mathbf{0/10}$ & $16.2\%$ & $68.2\%$ & ${\color{csared}\mathbf{10/10}}$ & $16.2\%$ & $71.3\%$ & ${\color{csared}\mathbf{10/10}}$ & $18.1\%$ & $75.7\%$ & $\mathbf{0/10}$ & $23.0\%$ & $89.4\%$ & $\mathbf{0/10}$ & $24.9\%$ & $96.1\%$ & $\mathbf{0/10}$ \\
+ConfFact & -- & $0.0\%$ & $\mathbf{0/10}$ & -- & $0.0\%$ & $\mathbf{0/10}$ & -- & $0.0\%$ & $\mathbf{0/10}$ & -- & $0.0\%$ & $\mathbf{0/10}$ & $16.2\%$ & $70.3\%$ & $\mathbf{0/10}$ & $21.9\%$ & $85.6\%$ & $\mathbf{0/10}$ \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{HEAD-QA} (Fleming-R1-7B, $N=1,100$, Err$=26.0\%$, 10 reps). All 10 methods at $\alphabudget\in\{0.05,0.10,0.15,0.20,0.25,0.30\}$. Pivotal $\alphabudget=0.2$. Risk = final empirical risk on accepted items; AR = accept rate; PathV = pathwise-violation rate over 10 streams. Bold PathV = zero violations; red = partial or full violations. A dash in Risk column indicates principled refusal (AR$=0\%$).}
+\label{tab:full-headqa}
+\end{table}

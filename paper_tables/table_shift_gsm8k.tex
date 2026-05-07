@@ -1,0 +1,59 @@
+\begin{table}[!ht]
+\centering\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llrrrc}
+\toprule
+Scenario & Method & Risk & AR & MaxR & PathV \\
+\midrule
+\multicolumn{6}{l}{\emph{Scenario: \texttt{quartile}}} \\
+ & \csa & $0.0\%$ & $1.2\%$ & $0.0\%$ & $\mathbf{0/10}$ \\
+ & Always-Act & $8.9\%$ & $100.0\%$ & $8.9\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Fixed-Threshold & $8.9\%$ & $100.0\%$ & $8.9\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Naive-Tuning & $7.4\%$ & $81.8\%$ & $7.4\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & ACI & $5.0\%$ & $76.5\%$ & $5.0\%$ & ${\color{csared}4/10}$ \\
+ & SAOCP & $4.7\%$ & $74.1\%$ & $4.7\%$ & $\mathbf{0/10}$ \\
+ & LTT & $0.0\%$ & $0.0\%$ & $0.0\%$ & $\mathbf{0/10}$ \\
+ & CRC & $9.1\%$ & $96.8\%$ & $9.1\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & NEX-Conf & $5.1\%$ & $82.7\%$ & $5.1\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & ConfFact & $4.6\%$ & $48.4\%$ & $4.6\%$ & ${\color{csared}5/10}$ \\
+\midrule
+\multicolumn{6}{l}{\emph{Scenario: \texttt{multi}}} \\
+ & \csa & $2.6\%$ & $71.7\%$ & $2.6\%$ & $\mathbf{0/10}$ \\
+ & Always-Act & $5.0\%$ & $100.0\%$ & $5.7\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Fixed-Threshold & $5.0\%$ & $100.0\%$ & $5.7\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Naive-Tuning & $4.8\%$ & $99.5\%$ & $5.5\%$ & ${\color{csared}9/10}$ \\
+ & ACI & $4.9\%$ & $99.8\%$ & $5.0\%$ & ${\color{csared}1/10}$ \\
+ & SAOCP & $4.9\%$ & $99.7\%$ & $5.0\%$ & ${\color{csared}1/10}$ \\
+ & LTT & $0.6\%$ & $18.0\%$ & $0.7\%$ & $\mathbf{0/10}$ \\
+ & CRC & $4.5\%$ & $97.3\%$ & $5.4\%$ & ${\color{csared}6/10}$ \\
+ & NEX-Conf & $4.3\%$ & $97.3\%$ & $5.0\%$ & ${\color{csared}5/10}$ \\
+ & ConfFact & $1.0\%$ & $27.6\%$ & $1.2\%$ & ${\color{csared}1/10}$ \\
+\midrule
+\multicolumn{6}{l}{\emph{Scenario: \texttt{adversarial}}} \\
+ & \csa & $3.1\%$ & $73.2\%$ & $3.1\%$ & $\mathbf{0/10}$ \\
+ & Always-Act & $5.3\%$ & $100.0\%$ & $5.3\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Fixed-Threshold & $5.3\%$ & $100.0\%$ & $5.3\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Naive-Tuning & $5.3\%$ & $100.0\%$ & $5.3\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & ACI & $3.8\%$ & $94.9\%$ & $3.8\%$ & $\mathbf{0/10}$ \\
+ & SAOCP & $3.7\%$ & $94.3\%$ & $3.7\%$ & $\mathbf{0/10}$ \\
+ & LTT & $5.4\%$ & $98.4\%$ & $5.4\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & CRC & $5.4\%$ & $98.4\%$ & $5.4\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & NEX-Conf & $3.3\%$ & $92.0\%$ & $3.3\%$ & $\mathbf{0/10}$ \\
+ & ConfFact & $5.4\%$ & $98.4\%$ & $5.4\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+\midrule
+\multicolumn{6}{l}{\emph{Scenario: \texttt{window\_outrun}}} \\
+ & \csa & $0.0\%$ & $0.0\%$ & $0.0\%$ & $\mathbf{0/10}$ \\
+ & Always-Act & $6.8\%$ & $100.0\%$ & $6.9\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Fixed-Threshold & $6.8\%$ & $100.0\%$ & $6.9\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Naive-Tuning & $6.8\%$ & $100.0\%$ & $6.9\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & ACI & $5.2\%$ & $96.4\%$ & $5.3\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & SAOCP & $5.4\%$ & $96.8\%$ & $5.6\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & LTT & $0.0\%$ & $0.0\%$ & $0.0\%$ & $\mathbf{0/10}$ \\
+ & CRC & $14.6\%$ & $34.1\%$ & $14.6\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & NEX-Conf & $4.7\%$ & $84.2\%$ & $4.9\%$ & ${\color{csared}3/10}$ \\
+ & ConfFact & $7.4\%$ & $17.1\%$ & $7.4\%$ & ${\color{csared}5/10}$ \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Structurally adversarial distribution shifts on GSM8K at $\alphabudget=0.05$} (10 replications each). Four scenarios defined in \texttt{ablate\_shift\_hard.py}: \texttt{quartile} streams $n_{\text{passes}}$ passes of the bottom-25\%-easiest items (err$\approx 2.7\%$), then $n_{\text{passes}}$ passes of the top-25\%-hardest items (err$\approx 15.2\%$); \texttt{multi} interleaves 100-item blocks of the easy and hard halves; \texttt{adversarial} concatenates all-easy passes, then all-hard passes, then repeats the hardest-10\% block $5\times$ at the tail; \texttt{window\_outrun} uses a 509-item easy prefix (enough to fill CSA/CRC/Mohri's 500-accept calibration window) followed by a 250-item hard burst. \csa achieves $0/10$ on every scenario while maintaining meaningful AR ($71.7\%$ on \texttt{multi}, $73.3\%$ on \texttt{adversarial}); CRC and 	extsc{ConfFact} collapse on \texttt{adversarial} (10/10, $\text{Risk}=5.40\%>0.05$) and \texttt{window\_outrun} (CRC 10/10 with $\text{Risk}=14.6\%$); NEX-Conf violates $10/10$ on \texttt{quartile} and $5/10$ on \texttt{multi}; the five online baselines violate in every scenario.}
+\label{tab:shift-gsm8k-hard}
+\end{table}

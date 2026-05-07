@@ -1,0 +1,155 @@
+\begin{table}[!ht]
+\centering\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llrrrc}
+\toprule
+$\alphabudget$ / scenario & Method & Risk & AR & MaxR & PathV \\
+\midrule
+\multicolumn{6}{l}{\emph{$\alphabudget=0.05$,  scenario=iid}} \\
+ & \csa & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & Always-Act & $31.53\%$ & $100.00\%$ & $33.09\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Fixed-Threshold & $19.20\%$ & $66.01\%$ & $20.15\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Naive-Tuning & $16.30\%$ & $0.62\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & ACI & $11.59\%$ & $28.05\%$ & $12.03\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & SAOCP & $11.58\%$ & $28.02\%$ & $12.19\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & LTT & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & CRC & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $11.44\%$ & $39.04\%$ & $12.57\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & ConfFact & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+\midrule
+\multicolumn{6}{l}{\emph{$\alphabudget=0.05$,  scenario=easy\_hard}} \\
+ & \csa & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & Always-Act & $31.53\%$ & $100.00\%$ & $31.59\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Fixed-Threshold & $19.20\%$ & $66.01\%$ & $19.46\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Naive-Tuning & $12.52\%$ & $1.07\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & ACI & $11.73\%$ & $27.20\%$ & $12.11\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & SAOCP & $14.18\%$ & $21.07\%$ & $14.28\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & LTT & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & CRC & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $11.44\%$ & $40.35\%$ & $12.45\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & ConfFact & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+\midrule
+\multicolumn{6}{l}{\emph{$\alphabudget=0.05$,  scenario=quartile\_rev}} \\
+ & \csa & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & Always-Act & $31.53\%$ & $100.00\%$ & $31.57\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Fixed-Threshold & $19.20\%$ & $66.01\%$ & $19.42\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Naive-Tuning & $11.89\%$ & $1.10\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & ACI & $12.13\%$ & $26.09\%$ & $12.96\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & SAOCP & $13.54\%$ & $21.36\%$ & $13.58\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & LTT & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & CRC & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $11.62\%$ & $40.32\%$ & $14.34\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & ConfFact & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+\midrule
+\multicolumn{6}{l}{\emph{$\alphabudget=0.05$,  scenario=window\_outrun}} \\
+ & \csa & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & Always-Act & $31.53\%$ & $100.00\%$ & $37.22\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Fixed-Threshold & $19.20\%$ & $66.01\%$ & $22.18\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Naive-Tuning & $12.52\%$ & $1.07\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & ACI & $11.78\%$ & $27.49\%$ & $12.43\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & SAOCP & $14.20\%$ & $20.86\%$ & $14.35\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & LTT & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & CRC & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $11.44\%$ & $40.35\%$ & $12.45\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & ConfFact & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+\midrule
+\multicolumn{6}{l}{\emph{$\alphabudget=0.1$,  scenario=iid}} \\
+ & \csa & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & Always-Act & $31.53\%$ & $100.00\%$ & $33.09\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Fixed-Threshold & $19.20\%$ & $66.01\%$ & $20.15\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Naive-Tuning & $16.89\%$ & $0.67\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & ACI & $15.00\%$ & $49.84\%$ & $15.25\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & SAOCP & $14.98\%$ & $49.51\%$ & $15.11\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & LTT & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & CRC & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $11.44\%$ & $41.16\%$ & $12.24\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & ConfFact & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+\midrule
+\multicolumn{6}{l}{\emph{$\alphabudget=0.1$,  scenario=easy\_hard}} \\
+ & \csa & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & Always-Act & $31.53\%$ & $100.00\%$ & $31.59\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Fixed-Threshold & $19.20\%$ & $66.01\%$ & $19.46\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Naive-Tuning & $13.05\%$ & $1.32\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & ACI & $15.09\%$ & $49.39\%$ & $15.19\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & SAOCP & $15.90\%$ & $46.20\%$ & $15.92\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & LTT & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & CRC & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $11.57\%$ & $41.17\%$ & $12.90\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & ConfFact & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+\midrule
+\multicolumn{6}{l}{\emph{$\alphabudget=0.1$,  scenario=quartile\_rev}} \\
+ & \csa & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & Always-Act & $31.53\%$ & $100.00\%$ & $31.57\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Fixed-Threshold & $19.20\%$ & $66.01\%$ & $19.42\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Naive-Tuning & $12.90\%$ & $5.46\%$ & $2.46\%$ & ${\color{csared}2/10}$ \\
+ & ACI & $14.93\%$ & $49.76\%$ & $14.96\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & SAOCP & $15.28\%$ & $45.14\%$ & $15.28\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & LTT & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & CRC & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $12.42\%$ & $43.28\%$ & $14.32\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & ConfFact & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+\midrule
+\multicolumn{6}{l}{\emph{$\alphabudget=0.1$,  scenario=window\_outrun}} \\
+ & \csa & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & Always-Act & $31.53\%$ & $100.00\%$ & $37.22\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Fixed-Threshold & $19.20\%$ & $66.01\%$ & $22.18\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Naive-Tuning & $13.05\%$ & $1.32\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & ACI & $15.12\%$ & $49.40\%$ & $17.59\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & SAOCP & $15.90\%$ & $46.22\%$ & $17.21\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & LTT & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & CRC & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $11.56\%$ & $41.17\%$ & $12.88\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & ConfFact & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+\midrule
+\multicolumn{6}{l}{\emph{$\alphabudget=0.2$,  scenario=iid}} \\
+ & \csa & $11.44\%$ & $39.45\%$ & $12.37\%$ & $\mathbf{0/10}$ \\
+ & Always-Act & $31.53\%$ & $100.00\%$ & $33.09\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Fixed-Threshold & $19.20\%$ & $66.01\%$ & $20.15\%$ & ${\color{csared}6/10}$ \\
+ & Naive-Tuning & $19.98\%$ & $52.96\%$ & $21.96\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & ACI & $23.20\%$ & $75.25\%$ & $23.24\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & SAOCP & $23.14\%$ & $74.61\%$ & $23.15\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & LTT & $6.87\%$ & $24.34\%$ & $7.41\%$ & $\mathbf{0/10}$ \\
+ & CRC & $0.00\%$ & $0.00\%$ & $0.00\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $17.24\%$ & $56.46\%$ & $17.81\%$ & $\mathbf{0/10}$ \\
+ & ConfFact & $8.01\%$ & $28.40\%$ & $8.57\%$ & $\mathbf{0/10}$ \\
+\midrule
+\multicolumn{6}{l}{\emph{$\alphabudget=0.2$,  scenario=easy\_hard}} \\
+ & \csa & $11.44\%$ & $39.58\%$ & $12.32\%$ & $\mathbf{0/10}$ \\
+ & Always-Act & $31.53\%$ & $100.00\%$ & $31.59\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Fixed-Threshold & $19.20\%$ & $66.01\%$ & $19.46\%$ & $\mathbf{0/10}$ \\
+ & Naive-Tuning & $25.81\%$ & $4.63\%$ & $30.98\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & ACI & $23.22\%$ & $75.14\%$ & $23.24\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & SAOCP & $21.40\%$ & $70.23\%$ & $21.53\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & LTT & $31.82\%$ & $98.36\%$ & $48.38\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & CRC & $11.44\%$ & $39.91\%$ & $12.15\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $16.53\%$ & $53.08\%$ & $16.88\%$ & $\mathbf{0/10}$ \\
+ & ConfFact & $31.82\%$ & $98.36\%$ & $48.38\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+\midrule
+\multicolumn{6}{l}{\emph{$\alphabudget=0.2$,  scenario=quartile\_rev}} \\
+ & \csa & $11.43\%$ & $39.29\%$ & $12.14\%$ & $\mathbf{0/10}$ \\
+ & Always-Act & $31.53\%$ & $100.00\%$ & $31.57\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Fixed-Threshold & $19.20\%$ & $66.01\%$ & $19.42\%$ & $\mathbf{0/10}$ \\
+ & Naive-Tuning & $25.84\%$ & $4.88\%$ & $31.56\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & ACI & $23.05\%$ & $76.09\%$ & $23.06\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & SAOCP & $21.56\%$ & $68.33\%$ & $21.58\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & LTT & $31.82\%$ & $98.36\%$ & $48.21\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & CRC & $11.43\%$ & $39.90\%$ & $12.33\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $15.89\%$ & $52.91\%$ & $16.55\%$ & $\mathbf{0/10}$ \\
+ & ConfFact & $31.82\%$ & $98.36\%$ & $48.21\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+\midrule
+\multicolumn{6}{l}{\emph{$\alphabudget=0.2$,  scenario=window\_outrun}} \\
+ & \csa & $11.44\%$ & $39.58\%$ & $12.32\%$ & $\mathbf{0/10}$ \\
+ & Always-Act & $31.53\%$ & $100.00\%$ & $37.22\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Fixed-Threshold & $19.20\%$ & $66.01\%$ & $22.18\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & Naive-Tuning & $31.73\%$ & $3.68\%$ & $31.99\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & ACI & $23.14\%$ & $74.89\%$ & $24.83\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & SAOCP & $21.34\%$ & $70.04\%$ & $22.69\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & LTT & $31.82\%$ & $98.36\%$ & $49.09\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+ & CRC & $11.44\%$ & $39.91\%$ & $12.15\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $16.48\%$ & $53.00\%$ & $17.29\%$ & ${\color{csared}1/10}$ \\
+ & ConfFact & $31.82\%$ & $98.36\%$ & $49.09\%$ & ${\color{csared}\mathbf{10/10}}$ \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{MedQA shift stress-test} (\texttt{ablate\_shift\_lowalpha.py}; 10 reps, $n_{\text{passes}}=30$, $B=500$; MedQA EVAL $N=1{,}018$, $\mathrm{err}_{\text{easy}}=17.1\%$, $\mathrm{err}_{\text{hard}}=46.4\%$, shift ratio $2.71\times$). Twelve cells: $\alphabudget\in\{0.05,0.10,0.20\}$ $\times$ \{\texttt{iid}, \texttt{easy\_hard}, \texttt{quartile\_rev}, \texttt{window\_outrun}\}. \csa achieves $\PathV=0/10$ in all 12 cells (refuses for $\alphabudget\le 0.10$, non-refusing with $\AR\approx 39\%$ at $\alphabudget=0.20$). At $\alphabudget=0.20$, \textsc{LTT} and \textsc{ConfFact} collapse to $10/10$ on \texttt{easy\_hard}/\texttt{quartile\_rev}/\texttt{window\_outrun} with $\mathrm{Risk}=31.8\%$---both lock their threshold on the easy half and the hard-phase risk exceeds $\alphabudget$ on every replication. \textsc{CRC} remains $0/10$ on all MedQA cells but this is largely ``valid by refusal (\cref{tab:shift-gsm8k-hard} for cases where CRC does \emph{not} refuse and then violates).}
+\label{tab:shift-all}
+\end{table}

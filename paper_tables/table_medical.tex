@@ -1,0 +1,24 @@
+\begin{table}[!ht]
+\centering\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrcrrcrrcrrcrrcrrc}
+\toprule
+ & \multicolumn{3}{c}{$\alphabudget=0.05$} & \multicolumn{3}{c}{$\alphabudget=0.10$} & \multicolumn{3}{c}{$\alphabudget=0.15$} & \multicolumn{3}{c}{$\alphabudget=0.20$} & \multicolumn{3}{c}{$\alphabudget=0.25$} & \multicolumn{3}{c}{$\alphabudget=0.30$} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}\cmidrule(lr){11-13}\cmidrule(lr){14-16}\cmidrule(lr){17-19}
+Method & Risk & AR & PathV & Risk & AR & PathV & Risk & AR & PathV & Risk & AR & PathV & Risk & AR & PathV & Risk & AR & PathV \\
+\midrule
+\csa & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- \\
+Always-Act & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- \\
+Fixed-Threshold & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- \\
+Naive-Tuning & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- \\
+ACI & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- \\
+SAOCP & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- & -- \\
+LTT & -- & -- & -- & -- & -- & -- & -- & -- & -- & $6.9\%$ & $24.3\%$ & $\mathbf{0/10}$ & -- & -- & -- & -- & -- & -- \\
+CRC & -- & $0.0\%$ & $\mathbf{0/10}$ & -- & $0.0\%$ & $\mathbf{0/10}$ & -- & $0.0\%$ & $\mathbf{0/10}$ & -- & $0.0\%$ & $\mathbf{0/10}$ & $9.1\%$ & $32.5\%$ & $\mathbf{0/10}$ & $16.9\%$ & $57.6\%$ & $\mathbf{0/10}$ \\
+NEX-Conf & $11.4\%$ & $39.0\%$ & ${\color{csared}\mathbf{10/10}}$ & $11.4\%$ & $41.2\%$ & ${\color{csared}\mathbf{10/10}}$ & $12.5\%$ & $43.3\%$ & $\mathbf{0/10}$ & $17.2\%$ & $56.5\%$ & $\mathbf{0/10}$ & $21.2\%$ & $69.5\%$ & $\mathbf{0/10}$ & $27.8\%$ & $87.6\%$ & $\mathbf{0/10}$ \\
+ConfFact & -- & $0.0\%$ & $\mathbf{0/10}$ & -- & $0.0\%$ & $\mathbf{0/10}$ & -- & $0.0\%$ & $\mathbf{0/10}$ & $8.0\%$ & $28.4\%$ & $\mathbf{0/10}$ & $14.5\%$ & $50.3\%$ & $\mathbf{0/10}$ & $19.2\%$ & $64.9\%$ & $\mathbf{0/10}$ \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{MedQA} (Fleming-R1-7B, $N=1,018$, Err$=31.5\%$, 10 reps). All 10 methods at $\alphabudget\in\{0.05,0.10,0.15,0.20,0.25,0.30\}$. Pivotal $\alphabudget=0.2$. Risk = final empirical risk on accepted items; AR = accept rate; PathV = pathwise-violation rate over 10 streams. Bold PathV = zero violations; red = partial or full violations. A dash in Risk column indicates principled refusal (AR$=0\%$).}
+\label{tab:full-medical}
+\end{table}

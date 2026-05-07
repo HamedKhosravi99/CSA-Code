@@ -1,70 +1,128 @@
 # Conformal Selective Acting (CSA)
 
-Anonymous code release accompanying a double-blind submission. This
-repository contains the controller, surrogate, baselines, ablation scripts,
-and the aggregate JSON summaries used to produce every table and figure in
-the paper.
+> **Anytime-valid, pathwise selective-risk control for RLVR-trained LLMs.**
+> Anonymous code release accompanying a double-blind submission.
 
-## Layout
+## What this paper proposes
+
+A regulated operator deploys a local specialist LLM (medical Q&A, legal-citation
+review, financial reporting, …) under a per-deployment error budget α on
+released outputs, evaluated against a verifier on **this** deployment's stream,
+**simultaneously at every wall-clock round** — no pooling, no waiting for a
+long-run average.
+
+Existing risk-control wrappers cannot deliver this guarantee on adaptive,
+online-updated RLVR streams: offline conformal-risk methods require
+exchangeability; online-conformal methods bound only long-run averages;
+non-exchangeable extensions are marginally valid; the closest anytime wrapper
+controls marginal rather than selective risk.
+
+**Conformal Selective Acting (CSA)** fills the empty cell of the framework: it
+maintains a Ville-type e-process per candidate score threshold on a Bonferroni
+grid, evaluated against the RLVR filtration. We prove
+
+1. an **anytime-pathwise selective-risk bound** R<sub>T</sub><sup>act</sup> ≤ α + O(N<sub>T</sub><sup>−1/2</sup>),
+2. **rate-optimal certification** matching Θ(η̄<sup>−2</sup> log(1/δ)),
+3. a **horizon-independent release-rate gap**.
+
+Across **eight specialist benchmarks**, **sixteen adversarial
+distribution-shift cells**, and **five live RLVR cells with online LoRA**
+across four base models in three architecture families, CSA is the only
+method among the ten directly compared that satisfies both pathwise validity
+and non-refusing deployment on every cell.
+
+## Architecture
+
+![CSA architecture](figures/csa_architecture.png)
+
+CSA sits as a per-round wrapper between the policy and the deployment
+decision: at every round it ingests the policy's output, the verifier's
+binary signal V<sub>t</sub>, and the surrogate score s<sub>t</sub>; updates
+the per-threshold e-processes; and either *acts* on the most permissive
+certified threshold or *abstains* if no threshold is yet certified.
+
+## Repository layout
 
 ```
 .
-├── code/              source for the controller, baselines, and experiments
-│   ├── csa_core.py        CSA controller (Algorithm 1): per-threshold
-│   │                      e-process on a Bonferroni grid
-│   ├── domains/           per-benchmark stream and verifier
-│   │                      (medical, pubmedqa, tatqa, mednli, gsm8k,
-│   │                       headqa, arc, casehold)
-│   ├── active-rcps/       reference port of A-RCPS used in App. F.8
-│   ├── live_<bench>_cuda.py    live RLVR loop with online LoRA per cell
-│   ├── ablate_*.py             hyperparameter and distribution-shift ablations
-│   ├── run_*.py                experiment orchestrators
-│   ├── build_paper_*.py        regenerates the LaTeX tables and PDF figures
-│   ├── README.md               module-level documentation
-│   └── requirements.txt        Python dependencies
-└── data/results/      aggregate JSON summaries used by the build scripts
-                       (17 files: paper-data, verified-numbers,
-                        per-ablation summaries, cross-domain summary,
-                        new-baselines summary, LTT grid summaries)
+├── code/                              source (NumPy-only controller, ~300 lines)
+│   ├── csa_core.py                    CSA controller (Algorithm 1)
+│   ├── domains/                       per-benchmark stream and verifier
+│   │   ├── medical/  pubmedqa/  tatqa/  mednli/
+│   │   ├── gsm8k/    headqa/    arc/   casehold/
+│   │   ├── runner.py                  generic experiment runner
+│   │   ├── surrogate.py               isotonic-calibrated logistic surrogate
+│   │   └── baselines.py               heuristic baselines (Always/Fixed/Naive)
+│   ├── active-rcps/                   third-party A-RCPS reference port
+│   ├── live_<bench>_cuda.py           live RLVR loop with online LoRA
+│   ├── ablate_*.py                    hyperparameter / shift / split ablations
+│   ├── run_*.py                       experiment orchestrators
+│   ├── principled_baselines.py        ACI / SAOCP for selective acting
+│   ├── test_new_baselines.py          CRC / NEX-Conf / Mohri implementations
+│   ├── build_paper_figures.py         regenerates the figures
+│   ├── build_paper_tables.py          regenerates the LaTeX tables
+│   ├── README.md                      module-level documentation
+│   └── requirements.txt               Python dependencies
+│
+├── data/results/                      aggregate JSON summaries
+│   ├── _paper_data.json               headline numbers for every cell
+│   ├── _verified_numbers.json         spot-check snapshot consumed by figures
+│   ├── cross_domain_summary.json      cross-benchmark summary
+│   ├── shift/                         16 adversarial-ordering cells (App. F.5)
+│   │   ├── ablation_shift.json
+│   │   ├── ablation_shift_hard.json   MedQA at α=0.20
+│   │   ├── ablation_shift_hard_alpha0.05.json
+│   │   ├── ablation_shift_hard_gsm8k_alpha0.05.json
+│   │   ├── ablation_shift_lowalpha.json    interleaved low-α variants
+│   │   └── ablation_shift_new_baselines.json
+│   ├── ablations/                     hyperparameter / split / GPU sensitivity
+│   │   ├── ablation_hyperparams.json
+│   │   ├── ablation_gpu_summary.json
+│   │   └── split_sensitivity_summary.json
+│   ├── baselines/                     extended baselines and cross-model
+│   │   ├── new_baselines_summary.json     CRC / NEX-Conf / Mohri
+│   │   ├── deepseek_new_baselines_summary.json   cross-model on DeepSeek-R1
+│   │   └── arcps_medical_alpha0.20.json   A-RCPS port on MedQA
+│   └── ltt/                           LTT comparison runs
+│       ├── ltt_grid_summary.json
+│       ├── ltt_pivotal_summary.json
+│       └── tight_alpha_gsm8k_arc.json
+│
+├── figures/                           PDF + PNG output of build_paper_figures.py
+└── paper_tables/                      LaTeX output of build_paper_tables.py
 ```
 
-The aggregate JSONs in `data/results/` are produced by the experiment
-scripts in `code/run_*.py` and `code/live_*_cuda.py`. Per-replication raw
-outputs (one JSON per benchmark, alpha, and seed) are not included to keep
-the release small; they are regenerated deterministically by re-running the
-corresponding scripts.
-
-## Reproducing the paper
+## Quick start
 
 ```bash
 pip install -r code/requirements.txt
-python code/build_paper_figures.py   # regenerates the figures from
-                                     # data/results/_verified_numbers.json
+python code/build_paper_figures.py    # → figures/*.pdf, figures/*.png
+python code/build_paper_tables.py     # → paper_tables/*.tex
 ```
 
-`code/build_paper_tables.py` regenerates the LaTeX tables; it expects the
-per-benchmark per-alpha JSONs (re-derive by running the experiment scripts
-below).
+Both scripts run on CPU in seconds and consume only the aggregate JSONs in
+`data/results/`. No GPU required for regeneration.
 
-The live RLVR cells (Section 6.2) require a single GPU:
+## Reproducing the live RLVR experiments
 
-| Cell      | Script                  | GPU             | Wall-clock |
-|-----------|-------------------------|-----------------|-----------:|
-| MATH      | `live_medqa_cuda.py`    | A100-80GB       | 4 h        |
-| MedQA     | `live_medqa_cuda.py`    | A100-80GB       | 30.5 h     |
-| HEAD-QA   | (live HEAD-QA pipeline) | H200-141GB      | 30.5 h     |
-| ARC-C     | `live_arc_cuda.py`      | H200-141GB      | 6 h        |
-| CaseHOLD  | `live_casehold_cuda.py` | H200-141GB      | 8 h        |
+The live RLVR cells (Section 6.2 of the paper) require a single GPU and run
+in 4-bit NF4 with vLLM + PEFT:
 
-All cells run in 4-bit NF4 on a single GPU; inference uses vLLM and LoRA
-training uses PEFT. Hyperparameters are pinned in `code/csa_core.py` and
-reused across benchmarks; only the stream length scales with the
-per-benchmark evaluation set size.
+| Cell      | Script                      | GPU             | Wall-clock |
+|-----------|-----------------------------|-----------------|-----------:|
+| MATH      | `code/live_medqa_cuda.py`   | A100-80GB       | ~4 h       |
+| MedQA     | `code/live_medqa_cuda.py`   | A100-80GB       | ~30.5 h    |
+| HEAD-QA   | (live HEAD-QA pipeline)     | H200-141GB      | ~30.5 h    |
+| ARC-C     | `code/live_arc_cuda.py`     | H200-141GB      | ~6 h       |
+| CaseHOLD  | `code/live_casehold_cuda.py`| H200-141GB      | ~8 h       |
+
+Hyperparameters are pinned in `code/csa_core.py` and reused across all
+benchmarks; only the stream length scales with the per-benchmark evaluation
+set size. No per-benchmark grid search or δ-tuning is performed.
 
 ## Module documentation
 
-`code/README.md` documents every script and module in detail (CSA
-controller, surrogate, baselines, ablations, figure-generation pipeline).
+`code/README.md` documents every script and module in detail.
 
 ## License
 

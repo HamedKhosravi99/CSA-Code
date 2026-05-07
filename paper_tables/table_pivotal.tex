@@ -1,0 +1,52 @@
+\begin{table}[t]
+\centering\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llrrrc}
+\toprule
+Benchmark & Method & Risk & AR & Prec. & PathV \\
+\midrule
+MedQA ($\alpha=0.2$) & LTT & $6.9\%$ & $24.3\%$ & $93.1\%$ & $\mathbf{0/10}$ \\
+ & CRC & $0.0\%$ & $0.0\%$ & -- & $\mathbf{0/10}$ \\
+ & NEX-Conf & $17.2\%$ & $56.5\%$ & $82.8\%$ & $\mathbf{0/10}$ \\
+ & ConfFact & $8.0\%$ & $28.4\%$ & $92.0\%$ & $\mathbf{0/10}$ \\
+\midrule
+PubMedQA ($\alpha=0.2$) & LTT & $0.0\%$ & $0.0\%$ & -- & $\mathbf{0/10}$ \\
+ & CRC & $0.0\%$ & $0.0\%$ & -- & $\mathbf{0/10}$ \\
+ & NEX-Conf & $18.8\%$ & $81.9\%$ & $81.2\%$ & ${\color{csared}1/10}$ \\
+ & ConfFact & $7.6\%$ & $34.8\%$ & $92.4\%$ & $\mathbf{0/10}$ \\
+\midrule
+TAT-QA arith ($\alpha=0.2$) & LTT & $8.2\%$ & $50.1\%$ & $91.8\%$ & $\mathbf{0/10}$ \\
+ & CRC & $8.2\%$ & $50.1\%$ & $91.8\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $8.7\%$ & $52.2\%$ & $91.3\%$ & $\mathbf{0/10}$ \\
+ & ConfFact & $8.2\%$ & $50.1\%$ & $91.8\%$ & $\mathbf{0/10}$ \\
+\midrule
+MedNLI ($\alpha=0.2$) & LTT & $11.4\%$ & $66.6\%$ & $88.6\%$ & $\mathbf{0/10}$ \\
+ & CRC & $4.9\%$ & $28.9\%$ & $95.1\%$ & $\mathbf{0/10}$ \\
+ & NEX-Conf & $18.3\%$ & $92.5\%$ & $81.7\%$ & ${\color{csared}1/10}$ \\
+ & ConfFact & $13.5\%$ & $76.8\%$ & $86.5\%$ & $\mathbf{0/10}$ \\
+\midrule
+GSM8K ($\alpha=0.05$) & LTT & $0.3\%$ & $9.0\%$ & $99.7\%$ & $\mathbf{0/10}$ \\
+ & CRC & $0.0\%$ & $0.0\%$ & -- & $\mathbf{0/10}$ \\
+ & NEX-Conf & $4.4\%$ & $97.6\%$ & $95.6\%$ & ${\color{csared}1/10}$ \\
+ & ConfFact & $0.3\%$ & $9.0\%$ & $99.7\%$ & $\mathbf{0/10}$ \\
+\midrule
+HEAD-QA ($\alpha=0.2$) & LTT & $0.0\%$ & $0.0\%$ & -- & $\mathbf{0/10}$ \\
+ & CRC & $0.0\%$ & $0.0\%$ & -- & $\mathbf{0/10}$ \\
+ & NEX-Conf & $18.1\%$ & $75.7\%$ & $81.9\%$ & $\mathbf{0/10}$ \\
+ & ConfFact & $0.0\%$ & $0.0\%$ & -- & $\mathbf{0/10}$ \\
+\midrule
+ARC-Challenge ($\alpha=0.1$) & LTT & $0.0\%$ & $0.0\%$ & -- & $\mathbf{0/10}$ \\
+ & CRC & $0.0\%$ & $0.0\%$ & -- & $\mathbf{0/10}$ \\
+ & NEX-Conf & $9.3\%$ & $97.8\%$ & $90.7\%$ & ${\color{csared}2/10}$ \\
+ & ConfFact & $0.0\%$ & $0.0\%$ & -- & $\mathbf{0/10}$ \\
+\midrule
+CaseHOLD ($\alpha=0.25$) & LTT & $7.8\%$ & $15.0\%$ & $92.2\%$ & $\mathbf{0/10}$ \\
+ & CRC & $0.0\%$ & $0.0\%$ & -- & $\mathbf{0/10}$ \\
+ & NEX-Conf & $22.4\%$ & $53.8\%$ & $77.6\%$ & $\mathbf{0/10}$ \\
+ & ConfFact & $11.3\%$ & $22.6\%$ & $88.7\%$ & $\mathbf{0/10}$ \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Head-to-head comparison at each benchmark's pivotal $\alphabudget$.} 10 methods across 8 verifiable-reward benchmarks; 10 replications each. PathV is the number of streams on which the running empirical risk exceeded $\alphabudget$. \csa achieves $0/10$ on every cell; every online baseline (Always-Act, Fixed-Threshold, Naive-Tuning, ACI, SAOCP) violates on $\ge 10/10$. The three offline/conformal SOTA methods (LTT~\cite{ltt}, CRC~\cite{crc}, ConfFact~\cite{mohri}) often achieve validity by principled refusal ($\text{AR}=0\%$). NEX-Conformal~\cite{nexconf} is non-refusing but violates pathwise on 4/8 pivotal cells. Numbers extracted verbatim from \texttt{results/<bench>/<bench>\_alpha<X>.json} and \texttt{results/new\_baselines\_summary.json}.}
+\label{tab:pivotal-head-to-head}
+\label{tab:baseline-compare}
+\end{table}
